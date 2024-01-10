@@ -1,0 +1,23 @@
+@media screen and (max-width:500px)
+{
+  nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    box-shadow: none;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: black;
+  }
+  .title{
+    font-size: 1.2rem;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: none;
+  }
+
+}
