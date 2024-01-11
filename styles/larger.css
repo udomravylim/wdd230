@@ -1,38 +1,33 @@
-@media screen and (max-width: 500px)
-{
-  nav{
+@media screen and (max-width: 500px) {
+  nav {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  nav a:hover
-  {
-    color:yellow;
+  nav a:hover {
+    color: yellow;
     transform: scale(1);
   }
-  .card{
+  .card {
     box-shadow: none;
     border-width: 0.5px;
     border-style: solid;
     border-color: black;
   }
-  .title{
-    font-size: 1.2rem;
+  .title {
+    font-size: 1.1rem;
   }
-  main{
+  main {
     display: flex;
     flex-direction: column;
     padding: 1rem;
     box-shadow: none;
   }
-  img{
+  img {
     width: 30%;
     height: auto;
   }
-  span{
+  span {
     font-size: 2rem;
   }
-
 }
-
-
