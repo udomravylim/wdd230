@@ -3,6 +3,12 @@
   nav{
     display: flex;
     flex-direction: column;
+    text-align: center;
+  }
+  nav a:hover
+  {
+    color:yellow;
+    transform: scale(1);
   }
   .card{
     box-shadow: none;

@@ -42,6 +42,7 @@ nav a:hover {
   font-family: "Ubuntu", sans-serif, serif;
   color: yellow;
   transform: scale(1.5);
+  
 }
 
 main{
@@ -60,6 +61,9 @@ main{
     text-align: center;
     color: aliceblue;
     margin-top: -1px;
+}
+ul li a{
+  text-decoration: none;
 }
 
 .title{
