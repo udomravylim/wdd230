@@ -2,3 +2,39 @@
 font-family: 'Macondo', cursive;
 font-family: 'Merienda', cursive;
 font-family: 'Roboto', sans-serif; */
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+.primary {
+  background-color: #659DBD;
+}
+.secondary {
+  background-color: #FBEEC1;
+}
+.accent1 {
+  background-color: #DAAD86;
+}
+.accent2 {
+  background-color: #8D8741;
+}
+
+#merienda{
+  font-family: 'Merienda', cursive;
+}
+#roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: red;
+}
