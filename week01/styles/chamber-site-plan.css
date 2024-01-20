@@ -38,3 +38,8 @@ font-family: 'Roboto', sans-serif; */
 h1{
   color: red;
 }
+img
+{
+  max-width: 100%;
+  max-height: auto;
+}
