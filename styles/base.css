@@ -65,6 +65,14 @@ ul li a {
   text-decoration: none;
 }
 
+main a{
+  color: #006eb6
+}
+
+main a:hover {
+  color: rebeccapurple;
+  text-decoration: underline;
+}
 .title {
   font-size: 1.1rem;
   border-bottom: 1px solid black;
