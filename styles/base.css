@@ -25,22 +25,43 @@ span {
   font-family: "Ubuntu", sans-serif, serif;
 }
 
-nav {
+#menu {
+  font-size: 1.5rem;
+  border: 0;
+  background: none;
+  color: white;
+  position: absolute;
+  right: 1rem;
+  top:1rem;
+}
+#menu::before {
+  content: "☰";
+}
+#menu.open::before {
+  content: "X";
+}
+.navigation {
   display: flex;
   flex-direction: column;
   text-align: center;
+  list-style: none;
   background-color: black;
 }
-nav a {
+.navigation a {
+  display: none;
   font-family: "Ubuntu", sans-serif, serif;
   color: azure;
   text-align: center;
   text-decoration: none;
   padding: 1rem;
 }
-nav a:hover {
+.navigation a:hover {
   text-decoration: underline;
   color: yellow;
+}
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+  display: block;
 }
 
 main {
@@ -48,6 +69,9 @@ main {
   display: flex;
   flex-direction: column;
   box-shadow: none;
+}
+ul {
+  list-style: none;
 }
 .card {
   background-color: white;
@@ -65,8 +89,8 @@ ul li a {
   text-decoration: none;
 }
 
-main a{
-  color: #006eb6
+main a {
+  color: #006eb6;
 }
 
 main a:hover {

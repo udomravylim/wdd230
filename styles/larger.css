@@ -6,12 +6,18 @@
   span {
     font-size: 3rem;
   }
-  nav {
+  #menu {
+    display: none; /* hide hamburger button */
+  }
+  .navigation {
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 1.3rem;
   }
-  nav a:hover {
+  .navigation a {
+    display: block;
+  }
+  .navigation a:hover {
     color: yellow;
   }
   main {

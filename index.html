@@ -32,18 +32,24 @@
 
     <link rel="stylesheet" href="./styles/base.css" />
     <link rel="stylesheet" href="./styles/larger.css" />
+    <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/getDates.js" defer></script>
   </head>
   <body>
     <header>
       <img src="./images/Profile_myPhoto_at_IdahoFall.jpg" alt="Ravy Lim" />
       <span>Ravy Lim</span>
+      <!--HambergerNavigation-->
+    <button id="menu"></button>
     </header>
-    <nav>
-      <a id="home" href="index.html">Home</a>
-      <a href="#">Chamber</a>
-      <a href="week01/chamber-site-plan.html" target="_blank">Site Plan</a>
-      <a href="#">Form</a>
+    
+    <nav class="navigation">
+      <a href="index.html" title="home">Home</a>
+      <a href="#" title="chamber">Chamber</a>
+      <a href="week01/chamber-site-plan.html" target="_blank" title="siteplan"
+        >Site Plan</a
+      >
+      <a href="#" title="form">Form</a>
     </nav>
     <main>
       <h1 class="title">WDD 230: Web Frontend Development</h1>
