@@ -32,7 +32,7 @@ span {
   color: white;
   position: absolute;
   right: 1rem;
-  top:1rem;
+  top: 1rem;
 }
 #menu::before {
   content: "☰";
