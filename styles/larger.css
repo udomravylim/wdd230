@@ -18,7 +18,7 @@
     display: block;
   }
   .navigation a:hover {
-    color: yellow;
+    color: var(--yellow-color);
   }
   main {
     display: grid;
@@ -31,6 +31,6 @@
     grid-column: 1/3;
   }
   .card {
-    box-shadow: 1px 1px 10px 0px black;
+    box-shadow: 1px 1px 10px 0px var(--black-color);
   }
 }

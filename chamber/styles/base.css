@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header, footer{
+  display: grid;
+  grid-template-columns: 0.4fr auto;
+  background-color: gray;
+}
+.logo {
+  max-width: 100%;
+  height: auto;
+  grid-column: 1/2;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  z-index: 3;
+  margin-bottom: 2rem;
+}
+p {
+  text-align: left;
+  padding: 0.5rem;
+}
+.navigation {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+  background-color: gray;
+}
+.navigation a {
+  /* display: none; */
+  font-family: "Ubuntu", sans-serif, serif;
+  color: azure;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+}
+.navigation a:hover{
+  text-decoration: underline;
+  color: yellow;
+}
+main {
+  padding: 0.7rem;
+  ;
+}
+#hero,
+.event_img,
+.display_img {
+  max-width: 100%;
+  height: auto;
+}
+.display_img {
+  padding: 3rem 0 0 0;
+}
+#hero_container {
+  text-align: center;
+}
+#hero_container #join_btn {
+  background-color: yellow;
+  color: blue;
+  font-size: 0.9rem;
+  padding: 12px 24px;
+  border: black 0.2px solid;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px gray;
+}
+#hero_container #join_btn:hover,
+#join_bas:hover,
+#join_prem:hover {
+  background-color: red;
+  color: white;
+}
+
+
+
+#join_bas, #join_prem{
+  background-color: yellow;
+  color: blue;
+  font-size: 0.9rem;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+h1 {
+  font-family: "Merienda", serif;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1rem;
+}
+h2 {
+  font-family: "Macondo", sans-serif, serif;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 1rem 0 1rem;
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 1.5rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.collapsible:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+#promote {
+  background-color: green;
+  padding: 0 1rem 2.5rem 1rem;
+}
+#membership {
+  background-color: peachpuff;
+  padding: 1rem 1rem 4rem 1rem;
+  margin-top: 1rem;
+}
+.premium_membership {
+  margin-top: 5rem;
+  text-align: center;
+}
+.basic_membership {
+  text-align: center;
+}
+#owner{
+  grid-column: 1/3;
+  text-align: center;
+  padding: 0 0 0 6rem;
+  background-color: aquamarine;
+}
