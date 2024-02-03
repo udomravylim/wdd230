@@ -2,10 +2,40 @@
   margin: 0;
   padding: 0;
 }
-header, footer{
+
+:root {
+  --primary-color: #001f3f;
+  --secondary-color: #ffd700;
+  --third-color: #556b2f;
+  --accent1-color: #800000;
+  --accent2-color: #d3d3d3;
+}
+
+.dark-mode {
+  --primary-color: white;
+  --secondary-color: #333333;
+  --third-color: gray;
+  --accent1-color: #2F4F4F;
+  --accent2-color: black;
+}
+
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+body {
+  background-color: var(--accent2-color);
+}
+
+header,
+footer {
   display: grid;
   grid-template-columns: 0.4fr auto;
-  background-color: gray;
+  background-color: var(--accent1-color);
 }
 .logo {
   max-width: 100%;
@@ -19,6 +49,7 @@ header, footer{
 p {
   text-align: left;
   padding: 0.5rem;
+  color: var(--primary-color);
 }
 .navigation {
   margin-top: 1rem;
@@ -26,23 +57,22 @@ p {
   flex-direction: column;
   text-align: center;
   list-style: none;
-  background-color: gray;
+  background-color: var(--accent1-color);
 }
 .navigation a {
   /* display: none; */
   font-family: "Ubuntu", sans-serif, serif;
-  color: azure;
+  color: var(--secondary-color);
   text-align: center;
   text-decoration: none;
   padding: 1rem;
 }
-.navigation a:hover{
+.navigation a:hover {
   text-decoration: underline;
-  color: yellow;
+  color: var(--accent2-color);
 }
 main {
   padding: 0.7rem;
-  ;
 }
 #hero,
 .event_img,
@@ -57,8 +87,8 @@ main {
   text-align: center;
 }
 #hero_container #join_btn {
-  background-color: yellow;
-  color: blue;
+  background-color: var(--secondary-color);
+  color: var(--accent1-color);
   font-size: 0.9rem;
   padding: 12px 24px;
   border: black 0.2px solid;
@@ -69,15 +99,14 @@ main {
 #hero_container #join_btn:hover,
 #join_bas:hover,
 #join_prem:hover {
-  background-color: red;
-  color: white;
+  background-color: var(--third-color);
+  color: var(--accent1-color);
 }
 
-
-
-#join_bas, #join_prem{
-  background-color: yellow;
-  color: blue;
+#join_bas,
+#join_prem {
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
   font-size: 0.9rem;
   padding: 12px 24px;
   border: none;
@@ -87,21 +116,28 @@ main {
 }
 
 h1 {
+  color: var(--primary-color);
   font-family: "Merienda", serif;
   font-size: 1.8rem;
   text-align: center;
   padding: 1rem;
 }
 h2 {
+  color: var(--primary-color);
   font-family: "Macondo", sans-serif, serif;
   text-align: center;
   font-size: 2rem;
   padding: 2rem 1rem 0 1rem;
 }
+h3 {
+  color: var(--primary-color);
+  padding: 2rem;
+  border: black 3px solid;
+}
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #eee;
-  color: #444;
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
   cursor: pointer;
   padding: 1.5rem;
   width: 100%;
@@ -114,7 +150,7 @@ h2 {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .collapsible:hover {
-  background-color: #ccc;
+  background-color: var(--secondary-color);
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -122,12 +158,12 @@ h2 {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: var(--accent2-color);
 }
 .collapsible:after {
   content: "\02795"; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
-  color: white;
+  color: var(--accent2-color);
   float: right;
   margin-left: 5px;
 }
@@ -137,11 +173,11 @@ h2 {
 }
 
 #promote {
-  background-color: green;
-  padding: 0 1rem 2.5rem 1rem;
+  background-color: var(--third-color);
+  padding: 1rem 1rem 2.5rem 1rem;
 }
 #membership {
-  background-color: peachpuff;
+  background-color: var(--secondary-color);
   padding: 1rem 1rem 4rem 1rem;
   margin-top: 1rem;
 }
@@ -152,9 +188,13 @@ h2 {
 .basic_membership {
   text-align: center;
 }
-#owner{
+#owner {
   grid-column: 1/3;
   text-align: center;
   padding: 0 0 0 4rem;
-  background-color: aquamarine;
+}
+
+#owner p {
+  background-color: var(--accent1-color);
+  color: var(--secondary-color);
 }

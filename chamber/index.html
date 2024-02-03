@@ -10,14 +10,14 @@
     <meta name="author" content="Ravy Lim" />
     <!--Social Media Meta Tags-->
     <meta property="og:title" content="WDD 240 - Homepage" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" />
     <meta property="og:url" content="https://udomravylim.github.io/wdd230/" />
     <meta
       property="og:image"
       content="https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=1600/https://cstad.s3.ap-southeast-2.amazonaws.com/4559_Vietnam_Cambodia_WEB_HERO_1.jpg"
     />
 
-    <title>Ravy Lim - WDD 230 - Web Frontend Development</title>
+    <title>Homepage - Rexburg characters Chamber of Commerce</title>
     <!--favicon-->
     <link rel="icon" href="../chamber/light_bulb.ico" />
     <!--Typography-->
@@ -28,24 +28,29 @@
       rel="stylesheet"
     />
     <!--Link to CSS -->
+    <link rel="stylesheet" href="../styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css" />
     <!--Link to JS-->
     <script src="scripts/more_text.js" defer></script>
     <script src="../scripts/getDates.js" defer></script>
+    <script src="../scripts/darkmode.js" defer></script>
   </head>
 
   <body>
     <header>
+      <div id="mode">
+        🔆
+      </div>
       <img
         class="logo"
-        src="images/logos/Rexburg_Chamber_of_commerce_logos.jpeg"
+        src="images/logos/Rexburg_Chamber_of_commerce_logos_transparent.png"
         alt="Logo"
       />
       <nav class="navigation">
         <a href="../index.html">Home</a>
         <a href="index.html">Chamber</a>
-        <a href="week01/chamber-site-plan.html" target="_blank">Site Plan</a>
+        <a href="../week01/chamber-site-plan.html" target="_blank">Site Plan</a>
         <a href="#">Form</a>
       </nav>
     </header>
@@ -70,50 +75,62 @@
         </p>
       </div>
       <div id="spotlight">
-        <h2>Chamber Challenge Marathon Extravaganza</h2>
-        <img class="event_img" src="./images/Marathon_01.webp" alt="Marathon" />
-        <p>
-          The Chamber Challenge Marathon Extravaganza, orchestrated by the
-          Chamber of Commerce, is a dynamic and entertaining event designed to
-          blend physical activity with business-themed challenges. As
-          participants traverse the marathon route, they encounter interactive
-          Business Puzzle Pitstops, engage in an Entrepreneurial Relay Race, and
-          visit Commerce Carnival Stations for festive challenges inspired by
-          local businesses. The event also features a Networking Nook for
-          participants to connect with community leaders and entrepreneurs, an
-          Economic Photo Scavenger Hunt to showcase local landmarks, and an
-          Innovation Sprint where participants pitch creative business ideas.
-          The marathon concludes with a lively Finish Line Celebration,
-          fostering a sense of community pride and highlighting the diverse
-          economic landscape of the region. This unique and fun-filled
-          experience not only promotes health and camaraderie but also
-          strengthens the bonds between the community and its local businesses.
-        </p>
-        <h2>Business Brews & Banter Social Mixer</h2>
-        <img
-          class="event_img"
-          src="images/vecteezy_friends-and-family-taking-a-group-photo_29323785.jpg"
-          alt="friends and family group picture"
-        />
-        <p>
-          Welcome to the Business Brews & Banter Social Mixer, a laid-back and
-          enjoyable gathering hosted by the Chamber of Commerce, where local
-          entrepreneurs, business professionals, and community members converge
-          for an evening of lively conversations and connections. The event
-          unfolds in a relaxed venue adorned with tasting stations from local
-          breweries, offering an array of craft brews to set the perfect social
-          backdrop. Attendees engage in Business Bingo, encouraging meaningful
-          discussions, while Entrepreneurial Spotlights and brief interviews
-          provide insights into local success stories. A Community Collaboration
-          Wall facilitates idea-sharing, and structured speed networking rounds
-          ensure diverse interactions. With business trivia, a local artisan
-          showcase, and the overall convivial atmosphere, the Business Brews &
-          Banter Social Mixer offers a refreshing approach to networking,
-          celebrating the collaborative spirit and diverse talents within the
-          local business community.
-        </p>
+        <div id="event1">
+          <h2>Chamber Challenge Marathon Extravaganza</h2>
+          <img
+            class="event_img"
+            src="./images/Marathon_01.webp"
+            alt="Marathon"
+          />
+          <p>
+            The Chamber Challenge Marathon Extravaganza, orchestrated by the
+            Chamber of Commerce, is a dynamic and entertaining event designed to
+            blend physical activity with business-themed challenges. As
+            participants traverse the marathon route, they encounter interactive
+            Business Puzzle Pitstops, engage in an Entrepreneurial Relay Race,
+            and visit Commerce Carnival Stations for festive challenges inspired
+            by local businesses. The event also features a Networking Nook for
+            participants to connect with community leaders and entrepreneurs, an
+            Economic Photo Scavenger Hunt to showcase local landmarks, and an
+            Innovation Sprint where participants pitch creative business ideas.
+            The marathon concludes with a lively Finish Line Celebration,
+            fostering a sense of community pride and highlighting the diverse
+            economic landscape of the region. This unique and fun-filled
+            experience not only promotes health and camaraderie but also
+            strengthens the bonds between the community and its local
+            businesses.
+          </p>
+        </div>
+        <div id="event2">
+          <h2>Business Brews & Banter Social Mixer</h2>
+          <img
+            class="event_img"
+            src="images/vecteezy_friends-and-family-taking-a-group-photo_29323785.jpg"
+            alt="friends and family group picture"
+          />
+          <p>
+            Welcome to the Business Brews & Banter Social Mixer, a laid-back and
+            enjoyable gathering hosted by the Chamber of Commerce, where local
+            entrepreneurs, business professionals, and community members
+            converge for an evening of lively conversations and connections. The
+            event unfolds in a relaxed venue adorned with tasting stations from
+            local breweries, offering an array of craft brews to set the perfect
+            social backdrop. Attendees engage in Business Bingo, encouraging
+            meaningful discussions, while Entrepreneurial Spotlights and brief
+            interviews provide insights into local success stories. A Community
+            Collaboration Wall facilitates idea-sharing, and structured speed
+            networking rounds ensure diverse interactions. With business trivia,
+            a local artisan showcase, and the overall convivial atmosphere, the
+            Business Brews & Banter Social Mixer offers a refreshing approach to
+            networking, celebrating the collaborative spirit and diverse talents
+            within the local business community.
+          </p>
+        </div>
       </div>
       <div id="promote">
+        <div class="recommend">
+          <h3>Weather go right here</h3>
+        </div>
         <div class="recommend">
           <img
             class="display_img"
@@ -169,7 +186,7 @@
           />
 
           <button type="button" class="collapsible">
-            Join us in the vibrant realm of Rexburg Chamber of Commerce!
+            <B>COMMUNITY: </B>Join us in the vibrant realm of Rexburg Chamber of Commerce!
           </button>
           <div class="content">
             <p>
@@ -197,7 +214,7 @@
           />
 
           <button type="button" class="collapsible">
-            In the quaint town of Progressville, the origins of the Chamber of
+            <b>HISTORY:</b> In the quaint town of Progressville, the origins of the Chamber of
             Commerce are steeped in an amusing tale of serendipity and community
             spirit.
           </button>
@@ -288,13 +305,13 @@
     <footer>
       <img
         class="logo"
-        src="images/logos/Rexburg_Chamber_of_commerce_logos_black.png"
+        src="images/logos/Rexburg_Chamber_of_commerce_logos_white.png"
         alt="Logo"
       />
       <nav class="navigation">
         <a href="../index.html">Home</a>
         <a href="index.html">Chamber</a>
-        <a href="week01/chamber-site-plan.html" target="_blank">Site Plan</a>
+        <a href="../week01/chamber-site-plan.html" target="_blank">Site Plan</a>
         <a href="#">Form</a>
       </nav>
       <div id="owner">
