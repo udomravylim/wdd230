@@ -1,0 +1,30 @@
+h1,
+footer {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+  border: 2rem solid rgba(0, 0, 0, 0.1);
+  background-color: #ddd;
+}
+img {
+  width: 400px;
+  height: 600px;
+  padding: 1rem;
+  animation: fade 8s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

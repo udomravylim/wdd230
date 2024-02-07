@@ -7,7 +7,7 @@ let copyrightParagraph = document.getElementById("copyright");
 
 /* we can also do: copyrightParagraph.innerHTML = `&copy;${currentYear} 💕 Ravy Lim 💕 Cambodia`
 Because &copy; is the HTML unity, so we use .innerHTMl instead of .textContent */
-copyrightParagraph.textContent += `${currentYear} 💕 Ravy Lim 💕 Cambodia`;
+copyrightParagraph.textContent += `${currentYear} | Ravy Lim | Cambodia`;
 
 //Create lastModified by using lastModified property in JS
 const lastModified = document.lastModified;
