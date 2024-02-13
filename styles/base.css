@@ -37,7 +37,7 @@ header {
 	cursor: pointer;
 	font-size: 1.5rem;
 }
-img {
+header img {
   border-radius: 5%;
   box-shadow: 5px 5px 10px var(--black-color);
   display: block;
@@ -91,11 +91,20 @@ span {
   display: block;
 }
 
+.hero picture{
+  width: 100%;
+}
+.hero img{
+  width: 100%;
+  height: auto;
+}
+
 main {
   padding: 1rem;
   display: flex;
   flex-direction: column;
   box-shadow: none;
+  text-align: center;
 }
 ul {
   list-style: none;
@@ -128,6 +137,22 @@ main a:hover {
   font-size: 1.1rem;
   border-bottom: 1px solid var(--black-color);
 }
+.map {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Adjust max-width as needed */
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 aspect ratio (height/width * 100) */
+}
+.map iframe {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; /* Remove iframe border */
+}
+
 footer {
   font-family: "Ubuntu", sans-serif, serif;
   text-align: center;
