@@ -35,6 +35,7 @@
     <script src="scripts/more_text.js" defer></script>
     <script src="../scripts/getDates.js" defer></script>
     <script src="../scripts/darkmode.js" defer></script>
+    <script src="scripts/visitor.js" defer></script>
   </head>
 
   <body>
@@ -57,44 +58,71 @@
       <div id="spotlight">
         <img
           class="event_img"
-          src="images/byui_campus.webp"
-          alt="byui campus picture"
-          loading="lazy"
-        />
-        <img
-          class="event_img"
-          src="images/main_street_rexburg.webp"
-          alt="main street rexburg"
-          loading="lazy"
-        />
-        <img
-          class="event_img"
-          src="images/rexburg_park.webp"
+          src="./images/rexburg_park.webp"
           alt="rexburg park"
           loading="lazy"
         />
         <img
           class="event_img"
-          src="images/drone-rexburg-cropped.webp"
-          alt="drone-rexburg-cropped"
+          src="images/rexburg_water_fall.webp"
+          alt="rexburg water fall"
           loading="lazy"
         />
         <img
           class="event_img"
-          src="images/rexburg_city.webp"
-          alt="rexburg_city"
+          src="images/idaho_city.webp"
+          alt="idaho city"
           loading="lazy"
         />
         <img
           class="event_img"
-          src="images/water_place_rexburg.webp"
-          alt="water_place_rexburg"
+          src="images/byui_campus.webp"
+          alt="byui_campus"
+          loading="lazy"
+        />
+        <img
+          class="event_img"
+          src="images/rexburg_from_above.webp"
+          alt="rexburg_from_above"
+          loading="lazy"
+        />
+        <img
+          class="event_img"
+          src="images/rexburg_main_street.webp"
+          alt="rexburg_main_street"
           loading="lazy"
         />
       </div>
       <div id="promote">
         <div class="recommend">
-          <h3>Weather go right here</h3>
+          <div class="sidebar">
+            <div id="message"></div>
+          </div>
+          <!--weather section-->
+          <div class="weatherwidget">
+          <a
+            class="weatherwidget-io"
+            href="https://forecast7.com/en/43d82n111d79/rexburg/?unit=us"
+            data-label_1="REXBURG"
+            data-label_2="WEATHER"
+            data-theme="gray"
+            >REXBURG WEATHER</a
+          >
+        </div>
+          <script>
+            !(function (d, s, id) {
+              var js,
+                fjs = d.getElementsByTagName(s)[0];
+              if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://weatherwidget.io/js/widget.min.js";
+                fjs.parentNode.insertBefore(js, fjs);
+              }
+            })(document, "script", "weatherwidget-io-js");
+          </script>
+          <!--weather section-->
+          
         </div>
         <div class="recommend">
           <img
@@ -212,58 +240,6 @@
               guided by a shared love for commerce and a dash of whimsy.
             </p>
           </div>
-        </div>
-      </div>
-      <div id="membership">
-        <div class="basic_membership">
-          <h2>Basic Membership:</h2>
-          <p>
-            👥<b>Networking Opportunities:</b> As a Basic Member of our Chamber
-            of Commerce, you gain access to our vibrant community events,
-            enabling you to expand your professional network and forge valuable
-            connections within the local business ecosystem. <br />💼<b
-              >Resource Hub:</b
-            >
-            Enjoy entry to our Resource Hub, providing basic tools, guides, and
-            industry insights to help you navigate the business landscape more
-            effectively. Stay informed on local trends and opportunities.
-            <br />📅 <b>Event Discounts:</b> Basic Members receive exclusive
-            discounts on our signature events, workshops, and seminars. Attend
-            these gatherings to gain valuable knowledge and stay updated on the
-            latest developments in your industry. <br />📧
-            <b>Newsletter Subscription:</b> Stay in the loop with our monthly
-            newsletter, delivering curated content, member spotlights, and
-            relevant updates directly to your inbox. Keep your finger on the
-            pulse of our Chamber's activities and community news.
-          </p>
-          <button id="join_bas">Join Now</button>
-        </div>
-        <div class="premium_membership">
-          <h2>Premium Membership:</h2>
-          <p>
-            🌟 <b>Enhanced Networking:</b> Elevate your networking game with
-            Premium Membership, offering priority access to exclusive networking
-            events and forums. Connect with high-level professionals, potential
-            collaborators, and industry leaders. <br />🚀
-            <b>Premium Resources:</b> Dive deeper into your business journey
-            with premium resources, including in-depth market analyses, advanced
-            business guides, and exclusive webinars led by industry experts.
-            Stay ahead of the competition with insights tailored to your needs.
-            <br />🎟️ <b>VIP Access:</b> Enjoy VIP treatment at our major events,
-            conferences, and galas. With Premium Membership, you receive
-            priority seating, expedited check-ins, and access to invite-only VIP
-            sessions, maximizing your experience at every Chamber gathering.
-            <br />📈 <b>Business Spotlight:</b>light: Showcase your business
-            with a featured profile in our Chamber's directory, putting your
-            brand in the spotlight for potential clients and collaborators.
-            Premium Members enjoy enhanced visibility within our thriving
-            business community. <br />💬 <b>Consultation Services:</b> Access
-            personalized consultation services from industry experts and Chamber
-            leaders. Whether you need advice on strategic planning, marketing,
-            or other aspects of your business, our Premium Membership ensures
-            you receive tailored support.
-          </p>
-          <button id="join_prem">Join Now</button>
         </div>
       </div>
     </main>
