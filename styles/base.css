@@ -82,10 +82,15 @@ span {
   text-decoration: none;
   padding: 1rem;
 }
+/* .navigation a:visited {
+  color: var(--purple-color);
+} */
+
 .navigation a:hover {
   text-decoration: underline;
   color: var(--yellow-color);
 }
+
 /* when the button is clicked - the open class is toggled (added/removed) */
 .open a {
   display: block;
