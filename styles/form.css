@@ -168,3 +168,6 @@ input[type="range"]::-moz-range-thumb {
   color: var(--white-color);
   background-color: var(--gray-color);
 }
+.wf1 fieldset{
+  margin-bottom: 1rem;
+}
