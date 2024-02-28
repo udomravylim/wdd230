@@ -1,0 +1,170 @@
+:root {
+  --byu-blue-color: #006eb6;
+  --white-color: white;
+  --black-color: #343434;
+  --yellow-color: yellow;
+  --gray-color: grey;
+  --purple-color: purple;
+}
+
+.dark-mode {
+  --byu-blue-color: black;
+  --white-color: white;
+  --black-color: #36454F;
+  --yellow-color: #AABD8C;
+  --gray-color: grey;
+  --purple-color: purple;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: var(--byu-blue-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#mode {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+#menu {
+  font-size: 1.5rem;
+  border: 0;
+  background: none;
+  color: var(--white-color);
+  position: absolute;
+  right: 3rem;
+  top: 1rem;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "X";
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+  background-color: var(--black-color);
+}
+
+.navigation a {
+  display: none;
+  font-family: "Ubuntu", sans-serif, serif;
+  color: var(--white-color);
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+/* .navigation a:visited {
+    color: var(--purple-color);
+  } */
+
+.navigation a:hover {
+  text-decoration: underline;
+  color: var(--yellow-color);
+}
+
+span {
+  padding: 2rem;
+  font-size: 2rem;
+  color: var(--white-color);
+  font-family: "Ubuntu", sans-serif, serif;
+}
+
+label {
+  display: block;
+  padding-top: 1rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="password"],
+.wf1 input[type="email"] {
+  display: block;
+  background-color: var(--white-color);
+  border: solid 1px var(--black-color);
+  border-radius: 6px;
+  padding: 0.75rem;
+  color: var(--gray-color);
+  width: 100%;
+  max-width: 400px;
+  appearance: none;
+}
+
+.wf1 input[type="submit"] {
+  border: none;
+  background-image: linear-gradient(var(--byu-blue-color), var(--black-color));
+  color: var(--white-color);
+  border-radius: 6px;
+  padding: 0.8rem;
+  width: 96%;
+  max-width: 400px;
+  margin: 1rem 2% 2rem 2%;
+  box-shadow: 1px 1px 4px var(--black-color);
+}
+.wf1 input[type="submit"]:hover{
+  cursor: pointer;
+  background-image: linear-gradient(var(--yellow-color), var(--black-color));
+}
+
+.wf1 input:required {
+  border-right: solid 5px red;
+}
+
+.wf1 input:required:valid {
+  border-right: solid 5px green;
+}
+.wf1 #r {
+  color: red;
+  background-color: red;
+  
+}
+
+footer {
+  font-family: "Ubuntu", sans-serif, serif;
+  text-align: center;
+  background-color: var(--byu-blue-color);
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+#copyright {
+  color: var(--white-color);
+}
+
+#lastModified {
+  color: var(--yellow-color);
+}
+
+
+/* test */
+input[type="range"]::-moz-range-thumb {
+  background-color: var(--byu-blue-color);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -6px;
+  font-size: 1.8rem;
+}
+.wf1 #rating {
+  font-size: 1.5rem;
+  color: var(--white-color);
+  background-color: var(--gray-color);
+}

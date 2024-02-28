@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<!--link to CSS-->
+<link rel="stylesheet" href="styles/normalize.css" />
+<link rel="stylesheet" href="styles/form.css" />
+<link rel="stylesheet" href="styles/form_larger.css" />
+<!--link to JS-->
+<script src="scripts/getDates.js" defer></script>
+<script src="scripts/hamburger.js" defer></script>
+<script src="scripts/darkmode.js" defer></script>
+<script src="scripts/rating.js" defer></script>
+
+<body>
+  <header>
+    <div id="mode">🔆</div>
+    <span>Fill Up Your Form</span>
+    <!--HambergerNavigation-->
+    <button id="menu"></button>
+  </header>
+
+  <nav class="navigation">
+    <a href="index.html">Home</a>
+    <a href="./chamber/index.html">Chamber</a>
+    <a href="week01/chamber-site-plan.html" target="_blank">Site Plan</a>
+    <a href="chamber/discover.html">Chamber Discover</a>
+  </nav>
+  <main>
+    <form method="get" action="form_thanks.html" class="wf1">
+      <fieldset>
+        <legend>Application Infomation</legend>
+        <label>Username* <input type="text" id="username" name="username" required /></label>
+        <label>Password* <input type="password" pattern="[a-zA-Z0-9]{8,}" id="password" name="password"
+            required /></label>
+        <label>Verify Password* <input type="password" pattern="[a-zA-Z0-9]{8,}" name="password" required /></label>
+        <label>Email*<input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+            title="Please enter a valid email address (e.g., yourname@byui.edu)" /></label>
+      </fieldset>
+      <fieldset id="rating">
+        <label for="r">Rating: Unsatisfied to Satisfied</label>
+        <div id="rangevalue">0</div>
+        <input type="range" id="r" name="r" min="1" max="10" value="0" step="1" list="rangevalues" />
+        <datalist id="rangevalues">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </datalist>
+      </fieldset>
+      <input type="submit" value="Set Up My Application" />
+    </form>
+  </main>
+  <footer>
+    <p id="copyright">&copy;</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+
+</html>

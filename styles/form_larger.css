@@ -1,0 +1,28 @@
+@media screen and (min-width: 500px) {
+  #menu {
+    display: none; /* hide hamburger button */
+  }
+  .navigation {
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+  }
+  .navigation a {
+    display: block;
+  }
+  .navigation a:hover {
+    color: var(--yellow-color);
+  }
+  span {
+    font-size: 3rem;
+  }
+  .wf1 input[type="text"],
+.wf1 input[type="password"],
+.wf1 input[type="email"] {
+  max-width: 30%;
+}
+
+
+
+
+}
