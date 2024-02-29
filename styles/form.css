@@ -78,7 +78,7 @@ header {
     color: var(--purple-color);
   } */
 
-.navigation a:hover {
+.navigation a:hover , h1 a:hover{
   text-decoration: underline;
   color: var(--yellow-color);
 }
@@ -170,4 +170,9 @@ input[type="range"]::-moz-range-thumb {
 }
 .wf1 fieldset{
   margin-bottom: 1rem;
+}
+
+h1 a {
+  text-decoration: none;
+  color: var(--white-color);
 }
