@@ -1,0 +1,209 @@
+
+:root {
+    --primary-color: #001f3f;
+    --secondary-color: #ffd700;
+    --third-color: #556b2f;
+    --accent1-color: #800000;
+    --accent2-color: #d3d3d3;
+}
+
+.dark-mode {
+    --primary-color: white;
+    --secondary-color: #333333;
+    --third-color: gray;
+    --accent1-color: #2F4F4F;
+    --accent2-color: black;
+}
+
+  
+  body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      background-color: var(--accent2-color);
+  }
+  
+
+
+ 
+  header {
+    background-color: var(--accent1-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  #mode {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      font-size: 3rem;
+      cursor: pointer;
+      font-size: 1.5rem;
+  }
+
+  p, h1{
+    text-align: left;
+    padding: 0.5rem;
+    color: var(--primary-color);
+  }
+  header img {
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px var(--black-color);
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: 0;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    background-color: var(--accent1-color);
+  }
+
+  h1 a{
+    font-size: 3rem;
+  }
+  .navigation a, h1 a{
+    font-family: "Ubuntu", sans-serif, serif;
+    color:var(--secondary-color);
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    
+  }
+  /* .navigation a:visited {
+    color: var(--purple-color);
+  } */
+  
+  .navigation a:hover , h1 a:hover{
+    text-decoration: underline;
+    color: var(--accent2-color);
+  }
+
+  main{
+    display: block
+  }
+   
+  footer {
+    font-family: "Ubuntu", sans-serif, serif;
+    text-align: center;
+    background-color: var(--accent1-color);
+    padding: 1rem;
+  }
+  #copyright {
+    color: var(--secondary-color);
+    text-align: center;
+  }
+  #lastModified {
+    color: var(--secondary-color);
+    text-align: center;
+  }
+  
+/*COLLAPSIBLE TEXT*/
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 1.5rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active,
+  .collapsible:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: var(--accent2-color);
+  }
+  .collapsible:after {
+    content: "\02795"; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: var(--accent2-color);
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+/*COLLAPSIBLE TEXT*/    
+
+
+/*FOR JOIN.HTML*/
+fieldset{
+    margin-top: 1rem;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--primary-color);
+}
+
+
+.wf2 input[type="text"],
+.wf2 input[type="password"],
+.wf2 input[type="email"],
+.wf2 input[type="telephone"] {
+    display: block;
+    background-color: var(--accent2-color);
+    border: solid 1px var(--primary-color);
+    border-radius: 6px;
+    padding: 0.75rem;
+    color: var(--primary-color);
+    width: 70%;
+    appearance: none;
+}
+
+.wf2 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(var(--accent1-color), var(--secondary-color));
+    color: var(--white-color);
+    border-radius: 6px;
+    padding: 0.8rem;
+    width: 96%;
+    max-width: 300px;
+    margin: 1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px var(--black-color);
+    color: var(--primary-color);
+    font-size: larger;
+}
+
+.wf2 input[type="submit"]:hover {
+    cursor: pointer;
+    background-image: linear-gradient(var(--primary-color), var(--third-color));
+    color: var(--accent2-color);
+}
+
+.wf2 input:required {
+    border-right: solid 5px red;
+}
+
+.wf2 input:required:valid {
+    border-right: solid 5px green;
+}
+
+.wf2 #r {
+    color: red;
+    background-color: red;
+
+}

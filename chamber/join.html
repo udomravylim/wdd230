@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WDD 230 , Ravy Lim, course assignment portal" />
+  <meta name="author" content="Ravy Lim" />
+  <!--Social Media Meta Tags-->
+  <meta property="og:title" content="WDD 240 - Homepage" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://udomravylim.github.io/wdd230/" />
+  <meta property="og:image"
+    content="https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=1600/https://cstad.s3.ap-southeast-2.amazonaws.com/4559_Vietnam_Cambodia_WEB_HERO_1.jpg" />
+
+  <title>Homepage - Rexburg characters Chamber of Commerce</title>
+  <!--favicon-->
+  <link rel="icon" href="../chamber/light_bulb.ico" />
+  <!--Typography-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Macondo&family=Merienda:wght@800&family=Roboto:wght@300&display=swap"
+    rel="stylesheet" />
+  <!--Link to CSS -->
+  <link rel="stylesheet" href="../styles/normalize.css" />
+  <link rel="stylesheet" href="styles/join.css" />
+  <link rel="stylesheet" href="styles/join_larger.css" />
+  <!--Link to JS-->
+  <script src="scripts/more_text.js" defer></script>
+  <script src="../scripts/getDates.js" defer></script>
+  <script src="../scripts/darkmode.js" defer></script>
+  <script src="scripts/timestamp.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div id="mode">🔆</div>
+    <img class="logo" src="images/logos/Rexburg_Chamber_of_commerce_logos_transparent.png" alt="Logo" />
+  </header>
+  <nav class="navigation">
+    <a href="../index.html">Home</a>
+    <a href="index.html">Chamber</a>
+    <a href="../week01/chamber-site-plan.html" target="_blank">Site Plan</a>
+    <a href="/chamber/discover.html">Chamber Discover</a>
+  </nav>
+
+  <main>
+    <form action="thankyou.html" class="wf2">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label>First Name*
+          <input type="text" name="fName" id="fName" required pattern="[a-zA-Z]{2,}" /></label>
+        <label>Last Name*
+          <input type="text" name="fName" id="fName" required pattern="[a-zA-Z]{2,}" /></label>
+        <label>Title or Position
+          <input type="text" name="fName" id="fName" required pattern="[a-zA-Z\s\-]{2,}" /></label>
+
+        <label>Email* <input type="email" name="email" id="email" required
+            title="Please enter a valid email address (e.g., youremail@example.com)"></label>
+        <label>Phone Number
+          <input type="telephone" name="telephone" id="telephone" required pattern="[0-9]{2,}" /></label>
+        <label>Business/Organization's Name <input type="text" name="business" id="business" required></label>
+      </fieldset>
+      <fieldset>
+        <legend>Membership Level</legend>
+        <label><input type="radio" name="membership" value="np">NP Membership is for non profit organizations and
+          there
+          is no fee</label>
+        <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+        <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+        <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+      </fieldset>
+      <fieldset>
+        <legend>Business/Organization Description:</legend>
+        <textarea id="description" name="description" pattern="^[a-zA-Z\s\-.,'\" ;:()]{10,}$"
+          title="Please enter at least ten characters consisting of alphabets, spaces, hyphens, and common punctuation marks."
+          required></textarea><br>
+      </fieldset>
+      <input type="hidden" id="timestamp" name="timestamp">
+      <input type="submit" value="Join the My Community">
+    </form class="wf3">
+    <form>
+      <fieldset>
+        <legend>Mebership Level Benefits</legend>
+        <button type="button" class="collapsible">
+          <b>NP Membership is for non profit organizations and there is no fee</b>
+        </button>
+        <div class="content">
+          <li>Access to networking opportunities with other non-profit organizations.</li>
+          <li>Resources and support tailored specifically for non-profits.</li>
+          <li>Participation in community events and fundraisers.</li>
+          <li>Visibility and recognition within the non-profit community.</li>
+          <li>Access to specialized training and workshops.</li>
+          <li><b>Price:</b> Free (No membership fee).</li>
+        </div>
+        <button type="button" class="collapsible">
+          <b>Bronze Membership:</b>
+        </button>
+        <div class="content">
+          <li>Basic level of access to organization resources and events.</li>
+          <li>Limited networking opportunities.</li>
+          <li>Entry-level support and assistance from the organization.</li>
+          <li>Access to general workshops and training sessions.</li>
+          <li>Recognition as a Bronze-level member in organizational materials.</li>
+          <li><b>Price:</b> Affordable entry-level fee.</li>
+        </div>
+        <button type="button" class="collapsible">
+          <b>Silver Membership:</b>
+        </button>
+        <div class="content">
+          <li>Enhanced access to organization resources, events, and materials.</li>
+          <li>Expanded networking opportunities with other members and industry professionals.</li>
+          <li>Priority support and assistance from the organization's staff.</li>
+          <li>Access to exclusive workshops and training sessions.</li>
+          <li>Recognition as a Silver-level member in organizational materials.</li>
+          <li><b>Price:</b> Moderate membership fee, offering a balance between affordability and added benefits.</li>
+        </div>
+
+        <button type="button" class="collapsible">
+          <b>Gold Membership:</b>
+        </button>
+        <div class="content">
+          <li>Comprehensive access to all organization resources, events, and materials.</li>
+          <li>Extensive networking opportunities with top-tier members and industry leaders.</li>
+          <li>Expedited support and personalized assistance from the organization's experts.</li>
+          <li>Access to premium workshops, training sessions, and mentorship programs.</li>
+          <li>Prominent recognition as a Gold-level member in organizational materials.</li>
+          <li><b>Price:</b> Premium membership fee, offering the highest level of benefits and privileges.</li>
+        </div>
+
+      </fieldset>
+    </form>
+  </main>
+  <nav class="navigation">
+    <a href="../index.html">Home</a>
+    <a href="index.html">Chamber</a>
+    <a href="../week01/chamber-site-plan.html" target="_blank">Site Plan</a>
+    <a href="#">Form</a>
+  </nav>
+  <footer>
+    <p id="copyright">WDD230 Project | &copy;</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+
+</html>
