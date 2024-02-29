@@ -51,11 +51,11 @@
       <fieldset>
         <legend>Personal Information</legend>
         <label>First Name*
-          <input type="text" name="fName" id="fName" required pattern="[a-zA-Z]{2,}" /></label>
+          <input type="text" name="fName" id="fName" required pattern="[a-zA-Z]{2,}" autofocus /></label>
         <label>Last Name*
-          <input type="text" name="fName" id="fName" required pattern="[a-zA-Z]{2,}" /></label>
+          <input type="text" name="fName" id="lName" required pattern="[a-zA-Z]{2,}" /></label>
         <label>Title or Position
-          <input type="text" name="fName" id="fName" required pattern="[a-zA-Z\s\-]{2,}" /></label>
+          <input type="text" name="fName" id="title" required pattern="[a-zA-Z\s\-]{2,}" /></label>
 
         <label>Email* <input type="email" name="email" id="email" required
             title="Please enter a valid email address (e.g., youremail@example.com)"></label>
@@ -74,7 +74,7 @@
       </fieldset>
       <fieldset>
         <legend>Business/Organization Description:</legend>
-        <textarea id="description" name="description" pattern="^[a-zA-Z\s\-.,'\" ;:()]{10,}$"
+        <textarea id="description" name="description" pattern="^[a-zA-Z\s\-.,'\&quot;:()]{10,}$"
           title="Please enter at least ten characters consisting of alphabets, spaces, hyphens, and common punctuation marks."
           required></textarea><br>
       </fieldset>
@@ -96,7 +96,7 @@
           <li><b>Price:</b> Free (No membership fee).</li>
         </div>
         <button type="button" class="collapsible">
-          <b>Bronze Membership:</b>
+          <b>Bronze Membership</b>
         </button>
         <div class="content">
           <li>Basic level of access to organization resources and events.</li>
@@ -107,7 +107,7 @@
           <li><b>Price:</b> Affordable entry-level fee.</li>
         </div>
         <button type="button" class="collapsible">
-          <b>Silver Membership:</b>
+          <b>Silver Membership</b>
         </button>
         <div class="content">
           <li>Enhanced access to organization resources, events, and materials.</li>
@@ -119,7 +119,7 @@
         </div>
 
         <button type="button" class="collapsible">
-          <b>Gold Membership:</b>
+          <b>Gold Membership</b>
         </button>
         <div class="content">
           <li>Comprehensive access to all organization resources, events, and materials.</li>
