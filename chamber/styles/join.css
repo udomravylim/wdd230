@@ -163,7 +163,7 @@ label {
 .wf2 input[type="text"],
 .wf2 input[type="password"],
 .wf2 input[type="email"],
-.wf2 input[type="telephone"] {
+.wf2 input[type="tel"] {
     display: block;
     background-color: var(--accent2-color);
     border: solid 1px var(--primary-color);
