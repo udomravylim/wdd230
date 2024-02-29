@@ -114,7 +114,12 @@ main {
   border-radius: 5px;
   box-shadow: 5px 5px 10px gray;
 }
-
+#join_btn a, #join_bas a, #join_prem a {
+  text-decoration: none;
+}
+#join_bas a, #join_prem a{
+  color: var(--secondary-color);
+}
 h1 {
   color: var(--primary-color);
   font-family: "Merienda", serif;
