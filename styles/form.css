@@ -165,8 +165,8 @@ input[type="range"]::-moz-range-thumb {
 }
 .wf1 #rating {
   font-size: 1.5rem;
-  color: var(--white-color);
-  background-color: var(--gray-color);
+  color: var(--black-color);
+  background-color: var(--white-color);
 }
 .wf1 fieldset{
   margin-bottom: 1rem;
