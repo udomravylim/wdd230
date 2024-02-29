@@ -1,152 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-      name="description"
-      content="WDD 230 , Ravy Lim, course assignment portal"
-    >
-    <meta name="author" content="Ravy Lim" >
-    <!--Social Media Meta Tags-->
-    <meta property="og:title" content="WDD 240 - Homepage" >
-    <meta property="og:type" content="website" >
-    <meta property="og:url" content="https://udomravylim.github.io/wdd230/" >
-    <meta
-      property="og:image"
-      content="https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=1600/https://cstad.s3.ap-southeast-2.amazonaws.com/4559_Vietnam_Cambodia_WEB_HERO_1.jpg"
-    >
 
-    <title>Ravy Lim - WDD 230 - Web Frontend Development</title>
-    <link rel="icon" href="v.ico" />
-    <!--Typography-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <!--Link to CSS -->
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/base.css" />
-    <link rel="stylesheet" href="./styles/larger.css" />
-    <!--Link to JS-->
-    <script src="scripts/hamburger.js" defer></script>
-    <script src="scripts/getDates.js" defer></script>
-    <script src="scripts/darkmode.js" defer></script>
-    <script src="scripts/numOfVisit.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <div id="mode">🔆</div>
-      <img src="./images/Profile_myPhoto_at_IdahoFall.jpg" alt="Ravy Lim" />
-      <span>Ravy Lim</span>
-      <!--HambergerNavigation-->
-      <button id="menu"></button>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD 230 , Ravy Lim, course assignment portal">
+  <meta name="author" content="Ravy Lim">
+  <!--Social Media Meta Tags-->
+  <meta property="og:title" content="WDD 240 - Homepage">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://udomravylim.github.io/wdd230/">
+  <meta property="og:image"
+    content="https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=1600/https://cstad.s3.ap-southeast-2.amazonaws.com/4559_Vietnam_Cambodia_WEB_HERO_1.jpg">
 
-    <nav class="navigation">
-      <a href="index.html">Home</a>
-      <a href="./chamber/index.html">Chamber</a>
-      <a href="week01/chamber-site-plan.html" target="_blank">Site Plan</a>
-      <a href="chamber/discover.html">Chamber Discover</a>
-      <a href="form.html">Form</a>
-    </nav>
+  <title>Ravy Lim - WDD 230 - Web Frontend Development</title>
+  <link rel="icon" href="v.ico" />
+  <!--Typography-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet" />
+  <!--Link to CSS -->
+  <link rel="stylesheet" href="./styles/normalize.css" />
+  <link rel="stylesheet" href="./styles/base.css" />
+  <link rel="stylesheet" href="./styles/larger.css" />
+  <!--Link to JS-->
+  <script src="scripts/hamburger.js" defer></script>
+  <script src="scripts/getDates.js" defer></script>
+  <script src="scripts/darkmode.js" defer></script>
+  <script src="scripts/numOfVisit.js" defer></script>
+</head>
 
-    <div class="hero">
-      <picture>
-        <source
-          srcset="images/newport-beach-temple-small.webp"
-          media="(max-width: 500px)"
-        />
-        <source
-          srcset="images/newport-beach-temple-medium.webp"
-          media="(max-width: 1000px)"
-        />
-        <img
-          src="images/newport-beach-temple-large.webp"
-          alt="san diego temple"
-          width="1500"
-          height="750"
-        />
-      </picture>
+<body>
+  <header>
+    <div id="mode">🔆</div>
+    <img src="./images/Profile_myPhoto_at_IdahoFall.jpg" alt="Ravy Lim" />
+    <span>Ravy Lim</span>
+    <!--HambergerNavigation-->
+    <button id="menu"></button>
+  </header>
+
+  <nav class="navigation">
+    <a href="index.html">Home</a>
+    <a href="./chamber/index.html">Chamber</a>
+    <a href="week01/chamber-site-plan.html" target="_blank">Site Plan</a>
+    <a href="chamber/discover.html">Chamber Discover</a>
+    <a href="form.html">Form</a>
+  </nav>
+
+  <div class="hero">
+    <picture>
+      <source srcset="images/newport-beach-temple-small.webp" media="(max-width: 500px)" />
+      <source srcset="images/newport-beach-temple-medium.webp" media="(max-width: 1000px)" />
+      <img src="images/newport-beach-temple-large.webp" alt="san diego temple" width="1500" height="750" />
+    </picture>
+  </div>
+
+  <main>
+    <h1 class="title">WDD 230: Web Frontend Development</h1>
+    <section class="card">
+      <h2>Learning Activities</h2>
+      <ul>
+        <li>
+          Week1: <a href="#">Layout</a> | <a href="#">Media Query</a> |
+          <a href="#">Js Pen</a>
+        </li>
+        <li>
+          Week2: <a href="./week02/design.html">Design Principles</a> |
+          <a href="https://codepen.io/Ravylim87/pen/poYWpxO">CodePen</a>
+          | <a href="./week02/bom.html">JavaScript: DOM Manipulation</a>
+        </li>
+        <li>
+          Week3: <a href="week03/images/landscrape.webp">WebP</a> |
+          <a href="week03/lazyload.html">Lazy Load</a> |
+          <a href="week03/responsive-images.html">Responsive Image</a> |
+          <a href="week03/bom.html">BOM-using Local Storage</a>
+        </li>
+        <li>Week4: <a href="https://codepen.io/Ravylim87/pen/rNRgwYP">CSS Pseudo-Classes</a> | <a
+            href="week04/images/Screenshot 2024-02-22 112151.png">CSS Combinators</a> | <a
+            href="week04/tablebuild.html">Table Build</a> | <a href="week04/form-start/Form-start/index.html">Form
+            Development</a></li>
+        <li>Week5: <a href="#">------</a></li>
+        <li>Week6: <a href="#">------</a></li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Information</h2>
+      <p>
+        <span class="label">Number of Visits: </span><span class="visits"></span>
+      </p>
+      <!--weather section-->
+      <a class="weatherwidget-io" href="https://forecast7.com/en/43d82n111d79/rexburg/?unit=us" data-label_1="REXBURG"
+        data-label_2="WEATHER" data-theme="gray">REXBURG WEATHER</a>
+      <script>
+        !(function (d, s, id) {
+          var js,
+            fjs = d.getElementsByTagName(s)[0];
+          if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://weatherwidget.io/js/widget.min.js";
+            fjs.parentNode.insertBefore(js, fjs);
+          }
+        })(document, "script", "weatherwidget-io-js");
+      </script>
+      <!--weather section-->
+
+    </section>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32420.89979923854!2d-111.82015196152058!3d43.82100394239685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a4b807a98b1%3A0x4a49d8d1d2181c73!2sRexburg%2C%20ID!5e0!3m2!1sen!2sus!4v1707883743863!5m2!1sen!2sus"
+        width="1900" height="300" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
+  </main>
+  <footer>
+    <p id="copyright">&copy;</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
 
-    <main>
-      <h1 class="title">WDD 230: Web Frontend Development</h1>
-      <section class="card">
-        <h2>Learning Activities</h2>
-        <ul>
-          <li>
-            Week1: <a href="#">Layout</a> | <a href="#">Media Query</a> |
-            <a href="#">Js Pen</a>
-          </li>
-          <li>
-            Week2: <a href="./week02/design.html">Design Principles</a> |
-            <a href="https://codepen.io/Ravylim87/pen/poYWpxO">CodePen</a>
-            | <a href="./week02/bom.html">JavaScript: DOM Manipulation</a>
-          </li>
-          <li>
-            Week3: <a href="week03/images/landscrape.webp">WebP</a> |
-            <a href="week03/lazyload.html">Lazy Load</a> |
-            <a href="week03/responsive-images.html">Responsive Image</a> |
-            <a href="week03/bom.html">BOM-using Local Storage</a>
-          </li>
-          <li>Week4: <a href="https://codepen.io/Ravylim87/pen/rNRgwYP">CSS Pseudo-Classes</a> | <a href="week04/images/Screenshot 2024-02-22 112151.png">CSS Combinators</a> | <a href="week04/tablebuild.html">Table Build</a> | <a href="week04/form-start/Form-start/index.html">Form Development</a></li>
-          <li>Week5: <a href="#">------</a></li>
-          <li>Week6: <a href="#">------</a></li>
-        </ul>
-      </section>
-      <section class="card">
-        <h2>Information</h2>
-        <p>
-          <span class="label">Number of Visits: </span
-          ><span class="visits"></span>
-        </p>
-        <!--weather section-->
-        <a
-          class="weatherwidget-io"
-          href="https://forecast7.com/en/43d82n111d79/rexburg/?unit=us"
-          data-label_1="REXBURG"
-          data-label_2="WEATHER"
-          data-theme="gray"
-          >REXBURG WEATHER</a
-        >
-        <script>
-          !(function (d, s, id) {
-            var js,
-              fjs = d.getElementsByTagName(s)[0];
-            if (!d.getElementById(id)) {
-              js = d.createElement(s);
-              js.id = id;
-              js.src = "https://weatherwidget.io/js/widget.min.js";
-              fjs.parentNode.insertBefore(js, fjs);
-            }
-          })(document, "script", "weatherwidget-io-js");
-        </script>
-        <!--weather section-->
-       
-      </section>
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32420.89979923854!2d-111.82015196152058!3d43.82100394239685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a4b807a98b1%3A0x4a49d8d1d2181c73!2sRexburg%2C%20ID!5e0!3m2!1sen!2sus!4v1707883743863!5m2!1sen!2sus"
-          width="1900"
-          height="300"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        >
-        </iframe>
-      </div>
-    </main>
-    <footer>
-      <p id="copyright">&copy;</p>
-      <p id="lastModified"></p>
-    </footer>
-  </body>
 </html>
