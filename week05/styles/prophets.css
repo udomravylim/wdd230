@@ -1,0 +1,48 @@
+
+header,
+main,
+footer {
+  margin: 1rem;
+  position: relative;
+  text-align: center;
+}
+
+h1,h2 {
+    text-align: center;
+    color: darkblue;
+  }
+  p {
+    margin: 5px;
+  }
+  
+  main {
+    margin-left: 2rem;
+  }
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    box-shadow: 5px 0 30px #000000;
+  }
+  section {
+    margin:0.5rem;
+    padding: 0;
+    background-color: lightblue;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: auto;
+      max-width: 325px;
+    box-shadow: 0 0 30px #777;
+    height: 200px;
+    border: 1px solid #333;
+  }
+
+  footer {
+    border-top: 1px solid #555;
+    padding: 20px;
+  }

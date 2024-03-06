@@ -1,0 +1,99 @@
+[
+    {
+        "familyName": "Smith",
+        "dateMovedIn": "2019-01-01",
+        "numberOfPeople": 3,
+        "visitByBishopric": false,
+        "familyMembers": [
+            {
+                "name": "John",
+                "gender": "male",
+                "birthday": "2000-01-01"
+            },
+            {
+                "name": "Jane",
+                "gender": "female",
+                "birthday": "2003-01-01"
+            },
+            {
+                "name": "Joe",
+                "gender": "male",
+                "birthday": "2019-01-01"
+            }
+        ]
+    },
+    {
+        "familyName": "Johnson",
+        "dateMovedIn": "2018-05-20",
+        "numberOfPeople": 2,
+        "visitByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Michael",
+                "gender": "male",
+                "birthday": "1982-10-15"
+            },
+            {
+                "name": "Emily",
+                "gender": "female",
+                "birthday": "1985-12-08"
+            }
+        ]
+    },
+    {
+        "familyName": "Brown",
+        "dateMovedIn": "2017-08-10",
+        "numberOfPeople": 5,
+        "visitByBishopric": false,
+        "familyMembers": [
+            {
+                "name": "Christopher",
+                "gender": "male",
+                "birthday": "1970-03-25"
+            },
+            {
+                "name": "Jessica",
+                "gender": "female",
+                "birthday": "1972-06-18"
+            },
+            {
+                "name": "Sophia",
+                "gender": "female",
+                "birthday": "2000-09-01"
+            },
+            {
+                "name": "Andrew",
+                "gender": "male",
+                "birthday": "2003-11-12"
+            },
+            {
+                "name": "Emma",
+                "gender": "female",
+                "birthday": "2010-02-20"
+            }
+        ]
+    },
+    {
+        "familyName": "Williams",
+        "dateMovedIn": "2019-02-28",
+        "numberOfPeople": 3,
+        "visitByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Robert",
+                "gender": "male",
+                "birthday": "1978-07-05"
+            },
+            {
+                "name": "Samantha",
+                "gender": "female",
+                "birthday": "1982-09-15"
+            },
+            {
+                "name": "Olivia",
+                "gender": "female",
+                "birthday": "2015-04-10"
+            }
+        ]
+    }
+]
