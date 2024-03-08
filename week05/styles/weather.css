@@ -1,0 +1,38 @@
+figcaption{
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+main{
+    border: 1px solid teal;
+    margin: 2rem;
+    background-color: white;
+    padding: 2rem;
+}
+ p{
+    font-size: 1.5rem;
+ }
+h1{
+    color: blue;
+    font-size: 1.5rem;
+}
+
+figcaption{
+    color: purple;
+}
+
+#current-temp{
+    color: red;
+}
+footer{
+    background-color: blue;
+    color: yellow;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20%;
+    padding: 1rem
+}
