@@ -30,6 +30,7 @@
   <script src="scripts/getDates.js" defer></script>
   <script src="scripts/darkmode.js" defer></script>
   <script src="scripts/numOfVisit.js" defer></script>
+  <script src="scripts/weather.js" defer></script>
 </head>
 
 <body>
@@ -82,32 +83,27 @@
             href="week04/tablebuild.html">Table Build</a> | <a href="week04/form-start/Form-start/index.html">Form
             Development</a></li>
         <li>Week5: <a href="https://codepen.io/Ravylim87/pen/ZEZGNQx?editors=1100">CSS Pseudo-elements</a> |
-          <a href="week05/new-ward-members.json">JSON</a> | <a href="week05/prophets.html">The Fetch API</a> | <a href="week05/weather.html">Weather API</a>
+          <a href="week05/new-ward-members.json">JSON</a> | <a href="week05/prophets.html">The Fetch API</a> | <a
+            href="week05/weather.html">Weather API</a>
         </li>
         <li>Week6: <a href="#">------</a></li>
       </ul>
     </section>
     <section class="card">
       <h2>Information</h2>
+      <!--weather section-->
+      <div class="weather-container">
+        <img id="weather-icon" src="" alt="">
+        <figure>
+          <figcaption></figcaption>
+        </figure>
+        <span id="current-temp"></span>
+
+      </div>
+      <!--weather section-->
       <p>
         <span class="label">Number of Visits: </span><span class="visits"></span>
       </p>
-      <!--weather section-->
-      <a class="weatherwidget-io" href="https://forecast7.com/en/43d82n111d79/rexburg/?unit=us" data-label_1="REXBURG"
-        data-label_2="WEATHER" data-theme="gray">REXBURG WEATHER</a>
-      <script>
-        !(function (d, s, id) {
-          var js,
-            fjs = d.getElementsByTagName(s)[0];
-          if (!d.getElementById(id)) {
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "https://weatherwidget.io/js/widget.min.js";
-            fjs.parentNode.insertBefore(js, fjs);
-          }
-        })(document, "script", "weatherwidget-io-js");
-      </script>
-      <!--weather section-->
 
     </section>
     <div class="map">
@@ -116,6 +112,9 @@
         width="1900" height="300" style="border: 0" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade">
       </iframe>
+    </div>
+    <div>
+
     </div>
   </main>
   <footer>
