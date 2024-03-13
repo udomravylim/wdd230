@@ -125,6 +125,13 @@ ul {
   color: var(--white-color);
   margin-top: -1px;
 }
+.card h3 {
+  padding-left: 2rem;
+  text-align: left;
+  margin-bottom: -1rem;
+  font-size: 2rem;
+
+}
 ul li a {
   text-decoration: none;
 }
@@ -185,12 +192,12 @@ footer {
   align-items: center; /* Align items vertically */
 }
 figcaption{
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--byu-blue-color);
-  margin-left: -4rem;
+  margin-left: -3rem;
 }
 #current-temp{
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--purple-color);
-  margin-left: -2rem;
+  margin-left: -3rem;
 }

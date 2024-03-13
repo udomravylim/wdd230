@@ -42,3 +42,11 @@
 
 
 /*Weather*/
+figcaption{
+  font-size: 1.5rem;
+  margin-left: -3rem;
+}
+#current-temp{
+  font-size: 2rem;
+  margin-left: -1rem;
+}
