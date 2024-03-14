@@ -45,7 +45,7 @@ header img {
   height: auto;
   margin: 0;
 }
-span {
+#name{
   padding: 2rem;
   font-size: 2rem;
   color: var(--white-color);
@@ -113,19 +113,19 @@ main {
 ul {
   list-style: none;
 }
-.card {
+.card1, .card2 {
   background-color: var(--white-color);
   border: 1px solid var(--gray-color);
   margin-top: 10px;
 }
-.card h2 {
+.card1 h2, .card2 h2{
   background-color: var(--byu-blue-color);
   padding: 1rem;
   text-align: center;
   color: var(--white-color);
   margin-top: -1px;
 }
-.card h3 {
+.card1 h3, .card2 h3 {
   padding-left: 2rem;
   text-align: left;
   margin-bottom: -1rem;
@@ -136,7 +136,7 @@ ul li a {
   text-decoration: none;
 }
 
-main a {
+main a, span {
   color: var(--byu-blue-color);
 }
 
@@ -168,9 +168,10 @@ main a:hover {
 	color: var(--black-color);
 	font-weight: bolder;
 	font-size: larger;
+  padding-left:1.5rem;
 }
 .visits{
-  margin-left: -3rem;
+  margin-left: -1rem;
 }
 
 footer {

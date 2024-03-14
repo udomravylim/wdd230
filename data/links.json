@@ -1,6 +1,23 @@
 {
     "weeks": [
         {
+            "week": 1,
+            "links": [
+                {
+                    "title": "Course Page",
+                    "url": "#"
+                },
+                {
+                    "title": "Chamber Site Plan",
+                    "url": "#"
+                },
+                {
+                    "title": "Media Query",
+                    "url": "#"
+                }
+            ]
+        },
+        {
             "week": "Week 2",
             "links": [
                 {
