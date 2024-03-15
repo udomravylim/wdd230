@@ -203,7 +203,10 @@ h3 {
   background-color: var(--accent1-color);
   color: var(--secondary-color);
 }
-
+#copyright,#lastModified{
+  font-size: 1rem;
+  text-align: center;
+}
 
 
 .sidebar {
@@ -218,4 +221,84 @@ h3 {
 .weatherwidget {
   width: 100%;
   padding-top: 1rem;
+}
+/*Company Page*/
+.main_container {
+	margin: 0 auto;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: var(--accent2-color);
+	font-family: "Macondo", sans-serif, serif;
+}
+.menu {
+	margin: 1rem auto;
+	border: 1px solid var(--primary-color);
+	padding: 0.5rem;
+	background-color: var(--third-color);
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+section {
+	border: 1px solid var(--primary-color);
+	padding: 1rem;
+	background-color: var(--secondary-color);
+  text-align: center;
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+section p{
+  text-align: center;
+  padding: 5px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 10px;
+	align-items: center;
+}
+
+.grid section  {
+	text-align: center;
+}
+
+.grid  img {
+	border: 1px solid var(--accent2-color);
+	box-shadow: 0 0 10px var(--primary-color);
+  width: 30%;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: var(--accent2-color);
 }

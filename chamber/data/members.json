@@ -1,0 +1,81 @@
+{
+    "companies": [
+        {
+            "name": "Nebula Technologies",
+            "address": "123 Main Street, Cityville, State, Country",
+            "phone": "123-456-7890",
+            "website": "http://www.companyA.com",
+            "image": {
+                "hyperlink": "https://media.licdn.com/dms/image/C4D0BAQFRZcUHRsgZgQ/company-logo_200_200/0/1640812448881/nebula_technologies_us_logo?e=1718841600&v=beta&t=XgC5nRDN2uj1imvGlql-Dvtss5K2U_cBsL7I26yNeD4",
+                "filename": "companyA_icon.png"
+            },
+            "membership_level": "gold"
+        },
+        {
+            "name": "Inferno Innovations",
+            "address": "456 Elm Street, Townsville, State, Country",
+            "phone": "987-654-3210",
+            "website": "http://www.companyB.com",
+            "image": {
+                "hyperlink": "https://media.licdn.com/dms/image/C560BAQFMv1y5zqGstw/company-logo_200_200/0/1631370344096?e=2147483647&v=beta&t=pDCXBKkXRX4kYf1OqoNckaTmgQ4-y29NLJLUmHBF1dY",
+                "filename": "companyB_icon.png"
+            },
+            "membership_level": "silver"
+        },
+        {
+            "name": "Quantum Dynamics",
+            "address": "789 Oak Street, Villagetown, State, Country",
+            "phone": "555-123-4567",
+            "website": "http://www.companyC.com",
+            "image": {
+                "hyperlink": "https://media.licdn.com/dms/image/C4D0BAQHlgb04Ahm5Ew/company-logo_200_200/0/1631343184793?e=2147483647&v=beta&t=Jn9S0oTnYPobsWyw12WZfilbwHvl0Nv05d32vbr_1Fk",
+                "filename": "companyC_icon.png"
+            },
+            "membership_level": "bronze"
+        },
+        {
+            "name": "Eclipse Enterprises",
+            "address": "321 Pine Street, Hamletville, State, Country",
+            "phone": "444-555-6666",
+            "website": "http://www.companyD.com",
+            "image": {
+                "hyperlink": "https://eclipseenterprises.com.au/wp-content/themes/eclipse-enterprises/assets/img/eclipse-enterprises-footer.png",
+                "filename": "companyD_icon.png"
+            },
+            "membership_level": "gold"
+        },
+        {
+            "name": "Nova Innovations",
+            "address": "678 Maple Street, Countryside, State, Country",
+            "phone": "222-333-4444",
+            "website": "http://www.companyE.com",
+            "image": {
+                "hyperlink": "https://pbs.twimg.com/profile_images/1702678343680765952/nSCi9Iu-_400x400.jpg",
+                "filename": "companyE_icon.png"
+            },
+            "membership_level": "silver"
+        },
+        {
+            "name": "Titan Tech",
+            "address": "910 Birch Street, Riverside, State, Country",
+            "phone": "777-888-9999",
+            "website": "http://www.companyF.com",
+            "image": {
+                "hyperlink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRniYHATaiOzFOEmfblgzrcsHlhfAhUK9IdB9o_j3ymIA287yAxSGvPjDhiX3-zU8Bhlpo&usqp=CAU",
+                "filename": "companyF_icon.png"
+            },
+            "membership_level": "bronze"
+        },
+        {
+            "name": "Zenith Innovations",
+            "address": "111 Cedar Street, Lakeside, State, Country",
+            "phone": "666-777-8888",
+            "website": "http://www.companyG.com",
+            "image": {
+                "hyperlink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnnXp_Y5zp-0wDSIeJ4cv0WQ01X8Se4nDryg&usqp=CAU",
+                "filename": "companyG_icon.png"
+            },
+            "membership_level": "gold"
+        }
+    ]
+}
