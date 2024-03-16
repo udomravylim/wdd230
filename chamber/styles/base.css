@@ -249,7 +249,13 @@ section {
   text-align: center;
   box-shadow: 0 0 10px var(--primary-color);
 }
-
+section h4{
+  color: var(--primary-color);
+}
+section a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
 section p{
   text-align: center;
   padding: 5px;
@@ -296,7 +302,7 @@ section p{
 
 .list section h3 {
 	font-size: 1rem;
-	font-family: Roboto, Helvetica, sans-serif;
+	font-family: "Macondo", sans-serif, serif;
 }
 
 .list section:nth-child(even) {
