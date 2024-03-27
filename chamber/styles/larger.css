@@ -109,3 +109,28 @@ figcaption{
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap:1rem;
 }
+
+
+/*banner*/
+.bannerContent{
+  width : 100%;
+}
+.bannerText {
+  line-height: 5rem;
+  font-size: 2rem;
+  margin-left: 8%;
+}
+
+.bannerClose {
+  cursor: pointer;
+}
+
+.bannerText,
+.bannerClose > span {
+  color: var(--accent1-color);
+}
+
+.material-icons {
+  font-size: 4rem;
+  margin-left: 2rem;
+}

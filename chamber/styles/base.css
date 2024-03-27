@@ -356,3 +356,37 @@ figcaption{
   height: auto;
 }
 
+/*banner*/
+.banner {
+  background:white;
+  border: 5px solid var(--secondary-color);
+}
+
+.bannerContent{
+  padding: 1rem;
+  width : 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.bannerText {
+  line-height: 2rem;
+  font-family: "Macondo", sans-serif, serif;
+  font-size: 1rem;
+}
+
+.bannerClose {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bannerText,
+.bannerClose > span {
+  color: var(--accent1-color);
+}
+
+.material-icons {
+  font-size: 2rem;
+}
