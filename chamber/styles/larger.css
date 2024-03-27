@@ -63,7 +63,7 @@
 
   #hero_container #join_btn {
     position: absolute;
-    top: 80%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -86,7 +86,7 @@
     font-size: 1.5rem;
     text-align: center;
   }
-}
+
 
 /*Weather*/
 figcaption{
@@ -133,4 +133,6 @@ figcaption{
 .material-icons {
   font-size: 4rem;
   margin-left: 2rem;
+}
+
 }

@@ -1,8 +1,8 @@
-const url = "./data/members.json";
+const spotUrl = "./data/members.json";
 
 async function getSpotlight() {
   try {
-    const response = await fetch(url);
+    const response = await fetch(spotUrl);
     if (response.ok) {
       const data = await response.json();
       displaySpotlight(data);
