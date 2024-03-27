@@ -9,7 +9,7 @@
                 "hyperlink": "https://media.licdn.com/dms/image/C4D0BAQFRZcUHRsgZgQ/company-logo_200_200/0/1640812448881/nebula_technologies_us_logo?e=1718841600&v=beta&t=XgC5nRDN2uj1imvGlql-Dvtss5K2U_cBsL7I26yNeD4",
                 "filename": "companyA_icon.png"
             },
-            "membership_level": "gold"
+            "membership_level": "Gold"
         },
         {
             "name": "Inferno Innovations",
@@ -20,7 +20,7 @@
                 "hyperlink": "https://media.licdn.com/dms/image/C560BAQFMv1y5zqGstw/company-logo_200_200/0/1631370344096?e=2147483647&v=beta&t=pDCXBKkXRX4kYf1OqoNckaTmgQ4-y29NLJLUmHBF1dY",
                 "filename": "companyB_icon.png"
             },
-            "membership_level": "silver"
+            "membership_level": "Silver"
         },
         {
             "name": "Quantum Dynamics",
@@ -31,7 +31,7 @@
                 "hyperlink": "https://media.licdn.com/dms/image/C4D0BAQHlgb04Ahm5Ew/company-logo_200_200/0/1631343184793?e=2147483647&v=beta&t=Jn9S0oTnYPobsWyw12WZfilbwHvl0Nv05d32vbr_1Fk",
                 "filename": "companyC_icon.png"
             },
-            "membership_level": "bronze"
+            "membership_level": "Bronze"
         },
         {
             "name": "Eclipse Enterprises",
@@ -42,7 +42,7 @@
                 "hyperlink": "https://eclipseenterprises.com.au/wp-content/themes/eclipse-enterprises/assets/img/eclipse-enterprises-footer.png",
                 "filename": "companyD_icon.png"
             },
-            "membership_level": "gold"
+            "membership_level": "Gold"
         },
         {
             "name": "Nova Innovations",
@@ -53,7 +53,7 @@
                 "hyperlink": "https://pbs.twimg.com/profile_images/1702678343680765952/nSCi9Iu-_400x400.jpg",
                 "filename": "companyE_icon.png"
             },
-            "membership_level": "silver"
+            "membership_level": "Silver"
         },
         {
             "name": "Titan Tech",
@@ -64,7 +64,7 @@
                 "hyperlink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRniYHATaiOzFOEmfblgzrcsHlhfAhUK9IdB9o_j3ymIA287yAxSGvPjDhiX3-zU8Bhlpo&usqp=CAU",
                 "filename": "companyF_icon.png"
             },
-            "membership_level": "bronze"
+            "membership_level": "Bronze"
         },
         {
             "name": "Zenith Innovations",
@@ -75,7 +75,7 @@
                 "hyperlink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnnXp_Y5zp-0wDSIeJ4cv0WQ01X8Se4nDryg&usqp=CAU",
                 "filename": "companyG_icon.png"
             },
-            "membership_level": "gold"
+            "membership_level": "Gold"
         }
     ]
 }

@@ -35,6 +35,9 @@
     <script src="scripts/more_text.js" defer></script>
     <script src="../scripts/getDates.js" defer></script>
     <script src="../scripts/darkmode.js" defer></script>
+    <!-- <script src="scripts/weather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script> -->
+    <script src="scripts/spotlight.js" defer></script>
   </head>
 
   <body>
@@ -128,31 +131,29 @@
         within the local business community.
       </p>
     </div>
+    
+     <!--weather section-->
+     <div id="weather">
+     <p id="weather-title">Weather In Rexburg</p>
+     <div class="weather-container">
+       <img id="weather-icon" src="" alt="">
+       <figure>
+         <figcaption></figcaption>
+       </figure>
+       <span id="current-temp"></span>
+     </div>
+     <div class="weather-forecast"><p id="forecast-title">Weather Forecast</p></div>
+    </div>
+     <!--weather section-->
   </div>
   <div id="promote">
     <div class="recommend">
-         <!--weather section-->
-         <a class="weatherwidget-io" href="https://forecast7.com/en/43d82n111d79/rexburg/?unit=us" data-label_1="REXBURG"
-         data-label_2="WEATHER" data-theme="gray">REXBURG WEATHER</a>
-       <script>
-         !(function (d, s, id) {
-           var js,
-             fjs = d.getElementsByTagName(s)[0];
-           if (!d.getElementById(id)) {
-             js = d.createElement(s);
-             js.id = id;
-             js.src = "https://weatherwidget.io/js/widget.min.js";
-             fjs.parentNode.insertBefore(js, fjs);
-           }
-         })(document, "script", "weatherwidget-io-js");
-       </script>
-       <!--weather section-->
- 
+     
     </div>
     <div class="recommend">
       <img
         class="display_img"
-        src="images/online-job-search webp.webp"
+        src="images/online-job-search_webp.webp"
         alt="looking for a job"
       />
       <button type="button" class="collapsible">
@@ -170,7 +171,7 @@
     <div class="recommend">
       <img
         class="display_img"
-        src="images/upcomming_event webp.webp"
+        src="images/upcomming_event_webp.webp"
         alt="upcomming_event"
       />
       <button type="button" class="collapsible">
@@ -197,7 +198,7 @@
     <div class="recommend">
       <img
         class="display_img"
-        src="images/Who-are-our-migrants webp.webp"
+        src="images/Who-are-our-migrants_webp.webp"
         alt="group of people standing togther as harmony"
       />
       <button type="button" class="collapsible">
@@ -315,6 +316,12 @@
     </div>
   </div>
 </main>
+
+<!--Spotlight Advertisement-->
+<h1>Spotlight of the Day</h1>
+<div class="spotlightAds">
+</div>
+<!--Spotlight Advertisement-->
 
 
     <footer>

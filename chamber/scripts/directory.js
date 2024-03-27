@@ -21,7 +21,6 @@ function displayDirectory(data){
 
     for (const company of data.companies) {
         const section = document.createElement('section');
-        
         const image = document.createElement('img');
         image.setAttribute('src', company.image.hyperlink);
         image.setAttribute('alt', company.image.filename);

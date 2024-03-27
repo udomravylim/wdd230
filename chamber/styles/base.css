@@ -308,3 +308,51 @@ section p{
 .list section:nth-child(even) {
 	background-color: var(--accent2-color);
 }
+
+/*Weather*/
+#weather{
+  background-color: var(--accent1-color);
+  padding: 2rem;
+}
+#weather p{
+ color: var(--secondary-color);
+}
+.weather-container {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Align items vertically */
+}
+figcaption{
+  font-size: 1rem;
+  color: var(--secondary-color);
+  margin-left: -3rem;
+}
+#current-temp{
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  margin-left: -3rem;
+}
+
+/*Forecast*/
+#weather-title, #forecast-title{
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--secondary-color);
+}
+ .forecast-item{
+  display: block;
+  margin-bottom: 1rem;
+  border-top: solid 2px var(--secondary-color);
+ }
+
+/*advertise*/
+.spotlightAds{
+  padding: 0 2rem 0 2rem;
+  text-align: center; 
+}
+.company-section{
+  margin-bottom: 1.2rem;
+}
+.company-section img{
+  width : 30%;
+  height: auto;
+}
+

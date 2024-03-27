@@ -20,6 +20,7 @@
 <script src="scripts/hamburger.js" defer></script>
 <script src="scripts/darkmode.js" defer></script>
 <script src="scripts/rating.js" defer></script>
+<script src="scripts/form.js" defer></script>
 </head>
 <body>
   <header>
@@ -43,7 +44,7 @@
         <label>Username* <input type="text" id="username" name="username" required /></label>
         <label>Password* <input type="password" pattern="[a-zA-Z0-9]{8,}" id="password" name="password"
             required /></label>
-        <label>Verify Password* <input type="password" pattern="[a-zA-Z0-9]{8,}" name="password" required /></label>
+        <label>Verify Password* <input type="password" pattern="[a-zA-Z0-9]{8,}" id="confirmPassword"name="password" required /></label>
         <label>Email*<input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
             title="Please enter a valid email address (e.g., yourname@byui.edu)" /></label>
       </fieldset>
@@ -65,7 +66,7 @@
           <option value="10">10</option>
         </datalist>
       </fieldset>
-      <input type="submit" value="Set Up My Application" />
+      <input type="submit" id="submitButton" value="Set Up My Application" />
     </form>
   </main>
   <footer>

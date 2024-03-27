@@ -55,42 +55,54 @@
         <label>Last Name*
           <input type="text" name="fName" id="lName" required pattern="[a-zA-Z]{2,}" /></label>
         <label>Title or Position
-          <input type="text" name="fName" id="title" required pattern="[a-zA-Z\s\-]{2,}" /></label>
+          <input type="text" name="fName" id="title" required pattern="[a-zA-Z\s\-]{7,}" /></label>
 
-        <label>Email* <input type="email" name="email" id="email" required
-            title="Please enter a valid email address (e.g., youremail@example.com)"></label>
+        <label>Email*
+          <input type="email" name="email" id="email" required
+            title="Please enter a valid email address (e.g., youremail@example.com)" /></label>
         <label>Phone Number
           <input type="tel" name="tel" id="tel" required pattern="[0-9]{2,}" /></label>
-        <label>Business/Organization's Name <input type="text" name="business" id="business" required></label>
+        <label>Business/Organization's Name
+          <input type="text" name="business" id="business" required /></label>
       </fieldset>
       <fieldset>
         <legend>Membership Level</legend>
-        <label><input type="radio" name="membership" value="np">NP Membership is for non profit organizations and
-          there
-          is no fee</label>
-        <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
-        <label><input type="radio" name="membership" value="silver">Silver Membership</label>
-        <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+        <label><input type="radio" name="membership" value="np" />NP Membership is
+          for non profit organizations and there is no fee</label>
+        <label><input type="radio" name="membership" value="bronze" />Bronze
+          Membership</label>
+        <label><input type="radio" name="membership" value="silver" />Silver
+          Membership</label>
+        <label><input type="radio" name="membership" value="gold" />Gold
+          Membership</label>
       </fieldset>
       <fieldset>
         <legend>Business/Organization Description:</legend>
-        <textarea id="description" name="description" required></textarea><br>
+        <textarea id="description" name="description" required></textarea><br />
       </fieldset>
-      <input type="hidden" id="timestamp" name="timestamp">
-      <input type="submit" value="Join the My Community">
+      <input type="hidden" id="timestamp" name="timestamp" />
+      <input type="submit" value="Join the My Community" />
     </form>
     <form class="wf3">
       <fieldset>
         <legend>Mebership Level Benefits</legend>
         <button type="button" class="collapsible">
-          <b>NP Membership is for non profit organizations and there is no fee</b>
+          <b>NP Membership is for non profit organizations and there is no
+            fee</b>
         </button>
         <div class="content">
           <ul>
-            <li>Access to networking opportunities with other non-profit organizations.</li>
-            <li>Resources and support tailored specifically for non-profits.</li>
+            <li>
+              Access to networking opportunities with other non-profit
+              organizations.
+            </li>
+            <li>
+              Resources and support tailored specifically for non-profits.
+            </li>
             <li>Participation in community events and fundraisers.</li>
-            <li>Visibility and recognition within the non-profit community.</li>
+            <li>
+              Visibility and recognition within the non-profit community.
+            </li>
             <li>Access to specialized training and workshops.</li>
             <li><b>Price:</b> Free (No membership fee).</li>
           </ul>
@@ -100,11 +112,16 @@
         </button>
         <div class="content">
           <ul>
-            <li>Basic level of access to organization resources and events.</li>
+            <li>
+              Basic level of access to organization resources and events.
+            </li>
             <li>Limited networking opportunities.</li>
             <li>Entry-level support and assistance from the organization.</li>
             <li>Access to general workshops and training sessions.</li>
-            <li>Recognition as a Bronze-level member in organizational materials.</li>
+            <li>
+              Recognition as a Bronze-level member in organizational
+              materials.
+            </li>
             <li><b>Price:</b> Affordable entry-level fee.</li>
           </ul>
         </div>
@@ -113,12 +130,26 @@
         </button>
         <div class="content">
           <ul>
-            <li>Enhanced access to organization resources, events, and materials.</li>
-            <li>Expanded networking opportunities with other members and industry professionals.</li>
-            <li>Priority support and assistance from the organization's staff.</li>
+            <li>
+              Enhanced access to organization resources, events, and
+              materials.
+            </li>
+            <li>
+              Expanded networking opportunities with other members and
+              industry professionals.
+            </li>
+            <li>
+              Priority support and assistance from the organization's staff.
+            </li>
             <li>Access to exclusive workshops and training sessions.</li>
-            <li>Recognition as a Silver-level member in organizational materials.</li>
-            <li><b>Price:</b> Moderate membership fee, offering a balance between affordability and added benefits.</li>
+            <li>
+              Recognition as a Silver-level member in organizational
+              materials.
+            </li>
+            <li>
+              <b>Price:</b> Moderate membership fee, offering a balance
+              between affordability and added benefits.
+            </li>
           </ul>
         </div>
 
@@ -127,15 +158,32 @@
         </button>
         <div class="content">
           <ul>
-            <li>Comprehensive access to all organization resources, events, and materials.</li>
-            <li>Extensive networking opportunities with top-tier members and industry leaders.</li>
-            <li>Expedited support and personalized assistance from the organization's experts.</li>
-            <li>Access to premium workshops, training sessions, and mentorship programs.</li>
-            <li>Prominent recognition as a Gold-level member in organizational materials.</li>
-            <li><b>Price:</b> Premium membership fee, offering the highest level of benefits and privileges.</li>
+            <li>
+              Comprehensive access to all organization resources, events, and
+              materials.
+            </li>
+            <li>
+              Extensive networking opportunities with top-tier members and
+              industry leaders.
+            </li>
+            <li>
+              Expedited support and personalized assistance from the
+              organization's experts.
+            </li>
+            <li>
+              Access to premium workshops, training sessions, and mentorship
+              programs.
+            </li>
+            <li>
+              Prominent recognition as a Gold-level member in organizational
+              materials.
+            </li>
+            <li>
+              <b>Price:</b> Premium membership fee, offering the highest level
+              of benefits and privileges.
+            </li>
           </ul>
         </div>
-
       </fieldset>
     </form>
   </main>
