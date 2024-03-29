@@ -34,6 +34,9 @@ function displayDirectory(data){
         const phone = document.createElement('p');
         phone.textContent = company.phone;
 
+        const membership_level = document.createElement('p');
+        membership_level.textContent = 'Membership Level: ' + company.membership_level;
+
         const websiteUrl = document.createElement('a');
         websiteUrl.setAttribute('href', company.website);
         websiteUrl.textContent = company.website;
@@ -43,6 +46,7 @@ function displayDirectory(data){
 
         section.appendChild(image);
         section.appendChild(name);
+        section.appendChild(membership_level);
         section.appendChild(address);
         section.appendChild(phone);
         section.appendChild(websiteUrl);

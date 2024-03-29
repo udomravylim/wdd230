@@ -1,270 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="WDD 230 , Ravy Lim, Chamber of Commerce"
-    />
-    <meta name="author" content="Ravy Lim" />
-    <!--Social Media Meta Tags-->
-    <meta property="og:title" content="WDD 240 - Homepage" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://udomravylim.github.io/wdd230/" />
-    <meta
-      property="og:image"
-      content="https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=1600/https://cstad.s3.ap-southeast-2.amazonaws.com/4559_Vietnam_Cambodia_WEB_HERO_1.jpg"
-    />
 
-    <title>Discover</title>
-    <!--favicon-->
-    <link rel="icon" href="../chamber/light_bulb.ico" />
-    <!--Typography-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Macondo&family=Merienda:wght@800&family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <!--Link to CSS -->
-    <link rel="stylesheet" href="../styles/normalize.css" />
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/larger.css" />
-    <!--Link to JS-->
-    <script src="scripts/more_text.js" defer></script>
-    <script src="../scripts/getDates.js" defer></script>
-    <script src="../scripts/darkmode.js" defer></script>
-    <script src="scripts/visitor.js" defer></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WDD 230 , Ravy Lim, Chamber of Commerce" />
+  <meta name="author" content="Ravy Lim" />
+  <!--Social Media Meta Tags-->
+  <meta property="og:title" content="WDD 240 - Homepage" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://udomravylim.github.io/wdd230/" />
+  <meta property="og:image"
+    content="https://images.tripadeal.com.au/cdn-cgi/image/format=auto,width=1600/https://cstad.s3.ap-southeast-2.amazonaws.com/4559_Vietnam_Cambodia_WEB_HERO_1.jpg" />
 
-  <body>
-    <header>
-      <div id="mode">🔆</div>
-      <img
-        class="logo"
-        src="images/logos/Rexburg_Chamber_of_commerce_logos_transparent.png"
-        alt="Logo"
-      />
-      <nav class="navigation">
-        <a href="../index.html">Home</a>
-        <a href="index.html">Chamber</a>
-        <a href="../week01/chamber-site-plan.html" target="_blank">Site Plan</a>
-        <a href="discover.html">Chamber Discover</a>
-        <a href="join.html">Join Us</a>
-      </nav> 
-    </header>
+  <title>Discover</title>
+  <!--favicon-->
+  <link rel="icon" href="../chamber/light_bulb.ico" />
+  <!--Typography-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Macondo&family=Merienda:wght@800&family=Roboto:wght@300&display=swap"
+    rel="stylesheet" />
+  <!--Link to CSS -->
+  <link rel="stylesheet" href="../styles/normalize.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/larger.css" />
+  <!--Link to JS-->
+  <script src="scripts/more_text.js" defer></script>
+  <script src="../scripts/getDates.js" defer></script>
+  <script src="../scripts/darkmode.js" defer></script>
+  <script src="scripts/visitor.js" defer></script>
+</head>
 
-    <main>
-      <div id="welcome">
-        <h1>Welcome to Rexburg Chamber of Commerce Discover Page</h1>
+<body>
+  <header>
+    <div id="mode">🔆</div>
+    <img class="logo" src="images/logos/Rexburg_Chamber_of_commerce_logos_transparent.png" alt="Logo" />
+    <nav class="navigation">
+      <a href="../index.html">Home</a>
+      <a href="index.html">Chamber</a>
+      <a href="../week01/chamber-site-plan.html" target="_blank">Site Plan</a>
+      <a href="discover.html">Chamber Discover</a>
+      <a href="join.html">Join Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="welcome">
+      <h1>Welcome to Rexburg Chamber of Commerce Discover Page</h1>
+    </div>
+    <div id="spotlight">
+      <img class="event_img" src="./images/rexburg_park.webp" alt="rexburg park" loading="lazy" />
+      <img class="event_img" src="images/rexburg_water_fall.webp" alt="rexburg water fall" loading="lazy" />
+      <img class="event_img" src="images/idaho_city.webp" alt="idaho city" loading="lazy" />
+      <img class="event_img" src="images/byui_campus.webp" alt="byui_campus" loading="lazy" />
+      <img class="event_img" src="images/rexburg_from_above.webp" alt="rexburg_from_above" loading="lazy" />
+      <img class="event_img" src="images/rexburg_main_street.webp" alt="rexburg_main_street" loading="lazy" />
+    </div>
+    <div id="promote">
+      <div class="recommend">
+        <div class="sidebar">
+          <div id="message"></div>
+        </div>
+        <!--weather section-->
+        <div class="weatherwidget">
+          <a class="weatherwidget-io" href="https://forecast7.com/en/43d82n111d79/rexburg/?unit=us"
+            data-label_1="REXBURG" data-label_2="WEATHER" data-theme="gray">REXBURG WEATHER</a>
+        </div>
+        <script>
+          !(function (d, s, id) {
+            var js,
+              fjs = d.getElementsByTagName(s)[0];
+            if (!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = "https://weatherwidget.io/js/widget.min.js";
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+          })(document, "script", "weatherwidget-io-js");
+        </script>
+        <!--weather section-->
+        <div>
+          <h1>History</h1>
+          Rexburg, Idaho, is a city with a rich history dating back to the late 19th century. Here's a brief overview of
+          its history:
+
+          <br><br><b>Early Settlement: </b>Rexburg was founded in the 1880s by Mormon settlers who were sent by leaders
+          of The Church of Jesus Christ of Latter-day Saints (LDS Church) to establish communities in the western United
+          States. These settlers were attracted to the area's fertile land and abundant water supply.
+
+          <br><b>Naming of Rexburg:</b> The city was named after Thomas Edwin Ricks, a prominent local Mormon leader who
+          played a significant role in the settlement and development of the area.
+
+          <br><b>Agriculture and Education:</b>Throughout its history, Rexburg has been primarily an agricultural
+          community, with farming playing a crucial role in its economy. Additionally, education has been important,
+          with the establishment of Ricks College in 1888. Ricks College later became Brigham Young University–Idaho
+          (BYU-Idaho), a private university affiliated with the LDS Church.
+
+          <br><b>Natural Disasters:</b> Rexburg has faced challenges from natural disasters. In 1976, the nearby Teton
+          Dam collapsed, causing massive flooding in the area, including Rexburg. The disaster resulted in significant
+          damage to property and infrastructure but also brought the community together in recovery efforts.
+
+          <br><b>Economic Growth and Development:</b> Over the years, Rexburg has experienced steady growth and
+          development, particularly with the expansion of BYU-Idaho. The university has brought in students and faculty
+          from around the world, contributing to the city's cultural diversity and economic vitality.
+
+          <br><b>Cultural and Recreational Opportunities:</b> Rexburg offers various cultural and recreational
+          opportunities for residents and visitors alike. These include local events, such as the Idaho International
+          Dance and Music Festival, as well as outdoor activities in the nearby Yellowstone and Grand Teton National
+          Parks.
+
+          <br><br>Overall, Rexburg's history reflects its origins as a Mormon settlement, its agricultural heritage, its
+          resilience in the face of challenges, and its growth into a vibrant community with a strong educational and
+          cultural presence.
+        </div>
+
       </div>
-      <div id="spotlight">
-        <img
-          class="event_img"
-          src="./images/rexburg_park.webp"
-          alt="rexburg park"
-          loading="lazy"
-        />
-        <img
-          class="event_img"
-          src="images/rexburg_water_fall.webp"
-          alt="rexburg water fall"
-          loading="lazy"
-        />
-        <img
-          class="event_img"
-          src="images/idaho_city.webp"
-          alt="idaho city"
-          loading="lazy"
-        />
-        <img
-          class="event_img"
-          src="images/byui_campus.webp"
-          alt="byui_campus"
-          loading="lazy"
-        />
-        <img
-          class="event_img"
-          src="images/rexburg_from_above.webp"
-          alt="rexburg_from_above"
-          loading="lazy"
-        />
-        <img
-          class="event_img"
-          src="images/rexburg_main_street.webp"
-          alt="rexburg_main_street"
-          loading="lazy"
-        />
-      </div>
-      <div id="promote">
-        <div class="recommend">
-          <div class="sidebar">
-            <div id="message"></div>
-          </div>
-          <!--weather section-->
-          <div class="weatherwidget">
-          <a
-            class="weatherwidget-io"
-            href="https://forecast7.com/en/43d82n111d79/rexburg/?unit=us"
-            data-label_1="REXBURG"
-            data-label_2="WEATHER"
-            data-theme="gray"
-            >REXBURG WEATHER</a
-          >
-        </div>
-          <script>
-            !(function (d, s, id) {
-              var js,
-                fjs = d.getElementsByTagName(s)[0];
-              if (!d.getElementById(id)) {
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "https://weatherwidget.io/js/widget.min.js";
-                fjs.parentNode.insertBefore(js, fjs);
-              }
-            })(document, "script", "weatherwidget-io-js");
-          </script>
-          <!--weather section-->
-          
-        </div>
-        <!-- <div class="recommend">
-          <img
-            class="display_img"
-            src="images/online-job-search webp.webp"
-            alt="looking for a job"
-          />
+      
+    </div>
+  </main>
 
-          <button type="button" class="collapsible">
-            We're here to simplify your job hunt.
-          </button>
-          <div class="content">
-            <p>
-              Our team offers tailored support, resources, and guidance,
-              ensuring you're equipped for success. Whether you're a recent
-              graduate or seeking a career change, let us be your ally in
-              navigating the job
-            </p>
-          </div>
-        </div>
-        <div class="recommend">
-          <img
-            class="display_img"
-            src="images/upcomming_event webp.webp"
-            alt="upcomming_event"
-          />
+  <footer>
+    <img class="logo" src="images/logos/Rexburg_Chamber_of_commerce_logos_white.png" alt="Logo" />
+    <nav class="navigation">
+      <a href="../index.html">Home</a>
+      <a href="index.html">Chamber</a>
+      <a href="../week01/chamber-site-plan.html" target="_blank">Site Plan</a>
+      <a href="/chamber/discover.html">Chamber Discover</a>
+      <a href="join.html">Join Us</a>
+    </nav>
+    <div id="owner">
+      <p id="copyright">WDD230 Project | &copy;</p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
 
-          <button type="button" class="collapsible">
-            Welcome to InnoHub Oasis, the vibrant venue for the upcoming
-            Ultimate Career Boost Event hosted by Rexburg Chamber of Commerce.
-          </button>
-          <div class="content">
-            <p>
-              Nestled in the heart of a bustling city, InnoHub Oasis is an
-              innovative space designed to inspire and elevate professionals.
-              Picture sleek, modern architecture surrounded by lush greenery,
-              creating an atmosphere of creativity and growth. With
-              state-of-the-art facilities, InnoHub Oasis provides the perfect
-              backdrop for expert-led workshops, personalized resume makeovers,
-              and dynamic networking opportunities. Attendees will feel the
-              energy of innovation and collaboration, making this event an
-              unforgettable experience at the intersection of professional
-              development and creativity. Join us at InnoHub Oasis on Decemner
-              21, 2023 to embark on a transformative journey towards your career
-              aspirations!
-            </p>
-          </div>
-        </div>
-        <div class="recommend">
-          <img
-            class="display_img"
-            src="images/Who-are-our-migrants webp.webp"
-            alt="group of people standing togther as harmony"
-          />
-
-          <button type="button" class="collapsible">
-            <b>COMMUNITY: </b>Join us in the vibrant realm of Rexburg Chamber of
-            Commerce!
-          </button>
-          <div class="content">
-            <p>
-              We extend a heartfelt invitation to you, a passionate and dynamic
-              individual, to become an integral part of our thriving community.
-              At Rexburg chamber of Commerce, we believe in the strength of
-              collaborative endeavors, fostering connections, and unleashing
-              collective potential. Whether you're a seasoned professional,
-              aspiring entrepreneur, or someone on a journey of personal growth,
-              our community offers engaging discussions, exclusive events,
-              valuable networking opportunities, and a robust resource hub to
-              support your endeavors. The journey begins when you sign up on our
-              [Community Website/Platform], and we eagerly anticipate the
-              enriching experiences and connections you'll bring to [Your
-              Community Name]. Let's embark on this journey together and inspire
-              each other to new heights!
-            </p>
-          </div>
-        </div>
-        <div class="recommend">
-          <img
-            class="display_img"
-            src="images/old_building_chamber_site_of_commers.avif"
-            alt="old building"
-          />
-
-          <button type="button" class="collapsible">
-            <b>HISTORY:</b> In the quaint town of Progressville, the origins of
-            the Chamber of Commerce are steeped in an amusing tale of
-            serendipity and community spirit.
-          </button>
-          <div class="content">
-            <p>
-              Legend has it that back in the whimsical year of 1888, a town
-              meeting was called to address the pressing issue of organizing the
-              chaotic marketplace where vendors cheerfully hawked their wares in
-              a lively and colorful array. Enterprising locals, known for their
-              love of commerce and camaraderie, decided that the time had come
-              for a more structured approach. A community potluck was organized
-              at the town square, where townsfolk gathered to discuss the future
-              of Progressville's bustling trade scene. It was during this feast
-              of ideas that Mr. Bartholomew Pennyworth, an eccentric inventor,
-              suggested the formation of a society dedicated to fostering
-              business harmony. The proposal was met with resounding approval,
-              and so, the Great Guild of Progressville Traders was born. With
-              Mr. Pennyworth appointed as the first "Grand Maestro of Commerce,"
-              the guild soon evolved into the modern-day Chamber of Commerce.
-              Its inaugural meeting took place in the town's biggest treehouse,
-              where members exchanged not only business insights but also their
-              favorite recipes for peach cobbler. Throughout the years, the
-              Chamber of Commerce in Progressville became a symbol of unity and
-              entrepreneurial spirit, hosting quirky events like the Annual
-              Lively Lumberjack Jamboree and the Great Gopher Golf Gala. The
-              tradition lives on, and today, the Chamber stands as a testament
-              to the lively history and charming eccentricities of
-              Progressville—an emblem of how a community can flourish when
-              guided by a shared love for commerce and a dash of whimsy.
-            </p>
-          </div> -->
-        </div>
-      </div>
-    </main>
-
-    <footer>
-      <img
-        class="logo"
-        src="images/logos/Rexburg_Chamber_of_commerce_logos_white.png"
-        alt="Logo"
-      />
-      <nav class="navigation">
-        <a href="../index.html">Home</a>
-        <a href="index.html">Chamber</a>
-        <a href="../week01/chamber-site-plan.html" target="_blank">Site Plan</a>
-        <a href="/chamber/discover.html">Chamber Discover</a>
-        <a href="join.html">Join Us</a>
-      </nav>
-      <div id="owner">
-        <p id="copyright">WDD230 Project | &copy;</p>
-        <p id="lastModified"></p>
-      </div>
-    </footer>
-  </body>
 </html>

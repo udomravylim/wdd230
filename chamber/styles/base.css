@@ -1,7 +1,7 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 :root {
   --primary-color: #001f3f;
@@ -95,7 +95,10 @@ main {
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 5px 5px 10px gray;
+  text-decoration: none;
+  margin-bottom: 5rem;
 }
+
 #hero_container #join_btn:hover,
 #join_bas:hover,
 #join_prem:hover {
@@ -113,9 +116,8 @@ main {
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 5px 5px 10px gray;
-}
-#join_btn a, #join_bas a, #join_prem a {
   text-decoration: none;
+  margin-bottom: 5rem;
 }
 #join_bas a, #join_prem a{
   color: var(--secondary-color);
