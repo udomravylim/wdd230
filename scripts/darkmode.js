@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 modeButton.addEventListener("click", () => {
 	body.classList.toggle("dark-mode");
 	if (modeButton.textContent.includes("🌙")) {
-		modeButton.textContent = "🔆";
+		modeButton.textContent = "☀️";
 	} else {
 		modeButton.textContent = "🌙";
 	}
